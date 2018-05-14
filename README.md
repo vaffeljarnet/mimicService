@@ -1,0 +1,2 @@
+# mimicService
+Educational project

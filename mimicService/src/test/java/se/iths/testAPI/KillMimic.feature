@@ -1,7 +1,7 @@
 @KillMimic
 Feature: KillMimic terminates the service
 
-  @KillMimic111
+@KillMimic111
   Scenario: KillMimic terminates the service
     Given that the mimicService is running
     When I terminate the mimicService

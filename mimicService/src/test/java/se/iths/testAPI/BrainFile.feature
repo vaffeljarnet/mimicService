@@ -1,7 +1,7 @@
 @BrainFile
 Feature: Request are stored in the Brain file when terminating mimicService
 
-  @StoreInBrainFile111
+@StoreInBrainFile111
   Scenario Outline: Store one request and make same request after reboot
     Given that the mimicService is running
     And that no requests are stored
@@ -14,7 +14,7 @@ Feature: Request are stored in the Brain file when terminating mimicService
       |  question   |    response   | 
       |   "1+1"     |      "1"      |
       
-  @StoreInBrainFile112
+@StoreInBrainFile112
   Scenario: Store multiple requests and make same requests after reboot
     Given that the mimicService is running
     And that no requests are stored

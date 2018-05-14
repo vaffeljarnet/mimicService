@@ -1,7 +1,7 @@
 @ResetState
 Feature: As a Tester I would like to reset the state so that I can run a complete test scenario
 
- @resetState111
+@ResetState111
   Scenario Outline: Reset with one state in the request
     Given that the mimicService is running
     And that the mock has learned <question> with <response>
@@ -14,7 +14,7 @@ Feature: As a Tester I would like to reset the state so that I can run a complet
    
    
      
-@resetState112
+@ResetState112
   Scenario Outline: Reset with multiple state in the request
     Given that the mimicService is running
     And that the mock has learned <questionOne> with <responseOne>
@@ -28,7 +28,7 @@ Feature: As a Tester I would like to reset the state so that I can run a complet
       | "1+1"      |     "2"     | "4"         |   "6"       |
    
    
-  @resetState113   
+@ResetState113   
   Scenario Outline: Reset with multiple state with same response in the request
     Given that the mimicService is running
      And that the mock has learned <questionOne> with <responseOne>

@@ -15,7 +15,7 @@ import se.iths.helpers.*;
 public class MimicStepDef {
 	private final static String host="http://localhost:8080/"; 
 	private HttpServiceCaller service = new HttpServiceCaller();
-	private String responseForm = "Paste or type json, xml, html or text response to learn and press Learn<br><br><form action=\"learn\" method=\"post\"><textarea name='text' rows='30' cols='150'></textarea><br><br><input type=\"submit\" id='learn' value=\"Learn\"></form>";	
+	private String responseForm = "Paste or type json, xml, html or text response to learn and press Learn<br><br><form action=\"learnresponse\" method=\"post\"><textarea name='text' rows='30' cols='150'></textarea><br><br><input type=\"submit\" id='learn' value=\"Learn\"></form>";	
 	private MimicJarHelper helper = new MimicJarHelper();
 	
 	@Given("^that the mimicService is running$")

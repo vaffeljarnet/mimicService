@@ -44,21 +44,21 @@ public class MimicStepDef {
 		Assert.assertEquals(responseForm, service.executeGetRequest(host + arg1));
 	}
 	
-	@When("^I write unlearnAll in url$")
+	@When("^I write unlearnAllResponses in url$")
 	public void i_write_unlearnAll_in_url() throws Throwable {
-	  service.executeGetRequest(host + "unlearnAll");
+	  service.executeGetRequest(host + "unlearnAllResponses");
 	
 	}
 	
 	@Given("^that no requests are stored$")
 	public void that_no_requests_are_stored() throws Throwable {
-	   service.executeGetRequest(host+ "unlearnAll");
+	   service.executeGetRequest(host+ "unlearnAllResponses");
 	    
 	}
 
 	@Then("^the mock shows error message$")
 	public void the_mock_shows_error_message() throws Throwable {
-		Assert.assertEquals("Nothing to unlearn", service.executeGetRequest(host + "unlearnAll"));
+		Assert.assertEquals("Nothing to unlearn", service.executeGetRequest(host + "unlearnAllResponses"));
 	}
 	
 	@When("^I teach the mock that \"([^\"]*)\" has response \"([^\"]*)\"$")
@@ -79,10 +79,10 @@ public class MimicStepDef {
 		Assert.assertFalse(service.executeGetRequest(host + arg1).equals(arg2));
 	}
 	
-	@When("^I call unlearn")
+	@When("^I call unlearnResponse")
 	public void i_call_unlearn() throws Throwable {
 		helper.wait(100);
-	    service.executeGetRequest(host+"unlearn");
+	    service.executeGetRequest(host+"unlearnResponse");
 	}
 	
 	@When("^I make the request \"([^\"]*)\"$")

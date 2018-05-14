@@ -30,7 +30,7 @@ public class MimicJarHelper {
 	
 	public void resetMimic() {
 		service = new HttpServiceCaller();
-		service.executeGetRequest(host+"unlearnAll");
+		service.executeGetRequest(host+"unlearnAllResponses");
 		wait(200);
 	}
 	

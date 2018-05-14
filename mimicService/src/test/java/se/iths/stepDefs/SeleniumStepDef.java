@@ -52,9 +52,9 @@ public class SeleniumStepDef {
 	    driver.quitSelenium();
 	}
 	
-	@When("^I open the relearn URL$")
+	@When("^I open the relearnResponse URL$")
 	public void i_use_the_relearn_function() throws Throwable {
-	    driver.openURL(host+"relearn");
+	    driver.openURL(host+"relearnResponse");
 	}
 	
 }

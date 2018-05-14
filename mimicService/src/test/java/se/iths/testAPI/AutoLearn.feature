@@ -46,12 +46,12 @@ Feature: As a Tester I would like the mock to learn how to respond
     Then "add?value1=1&value2=3" respondes with "4"
     
   @AutoLearn115
-  Scenario: UnlearnAll removes all learned formats
+  Scenario: UnlearnAllResponses removes all learned formats
     Given that the mimicService is running
     And that the mock has learned "add?value1=1&value2=2" with "3" 
     And that the mock has learned "add?value1=1&value2=1" with "2"
     And "add?value1=1&value2=3" respondes with "4"
-    When I write unlearnAll in url
+    When I write unlearnAllResponses in url
 		Then "add?value1=1&value2=3" returns the response form
 		
 	@AutoLearn116

@@ -97,6 +97,12 @@ public class SeleniumStepDef {
 		driver.delay(100);
 	}
 	
+	@When("^I make an /unlearnResponse request$")
+	public void i_make_a_unlearnResponse_request() throws Throwable {
+		driver.openURL(host+"unlearnResponse");
+		driver.delay(100);
+	}
+	
 	@When("^I make a /viewRequests request$")
 	public void i_make_a_viewRequests_request() throws Throwable {
 		driver.openURL(host+"viewRequests");

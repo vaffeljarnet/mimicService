@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		tags = {"@MachineLearning,@GuiUnlearnResponse,@UnlearnResponse,@UnlearnAllResponses,@AddResponse,@RelearnResponse,@ViewRequests"},
+		tags = {"@MachineLearning117"},
 		glue = {"classpath:se/iths/stepDefs"}
 		)
-public class Sprint5TestSuite {}
+public class TempRunner {}
 

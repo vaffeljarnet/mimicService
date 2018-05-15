@@ -19,7 +19,7 @@ Feature: UnlearnResponse removes the current and the following states of the lat
 		And I make the request "1+1"
 	  Then "1+1" respondes with "3"
    
- @UnlearnResponse112     
+@UnlearnResponse112     
    Scenario: Unlearn question with one state
     Given  that the mimicService is running
     And that the mock has learned "1+1" with "2"

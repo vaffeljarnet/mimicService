@@ -73,6 +73,7 @@ Feature: As a Tester I would like the mock to learn how to respond
     When I teach the mock that "add?value1=1&value2=3" has response "4"
 		Then "add?value1=15&value2=5" respondes with "20"
 		
+#Added in sprint 5		
 @MachineLearning118
   Scenario: Mimic can learn how to respond with complex responses 
     Given that the mimicService is running

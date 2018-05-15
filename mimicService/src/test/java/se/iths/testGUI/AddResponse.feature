@@ -20,7 +20,7 @@ Feature: Add response adds states to a request
     Given that the mimicService is running
     When I open the browser with the request "numbers"
     And I input "1" in the response form and press the Learn button
-    And I add the states bellow to the request "numbers"
+    And I add the states below to the request "numbers"
     |state|
     |  4  |
     |  3  |
@@ -40,7 +40,7 @@ Feature: Add response adds states to a request
     Given that the mimicService is running
     When I open the browser with the request "numbers"
     And I input "1" in the response form and press the Learn button
-    And I add the states bellow to the request "numbers"
+    And I add the states below to the request "numbers"
     |state|
     |  2  |
     |  3  |

@@ -97,7 +97,7 @@ public class SeleniumStepDef {
 		driver.delay(100);
 	}
 	
-	@When("^I add the states bellow to the request \"([^\"]*)\"$")
+	@When("^I add the states below to the request \"([^\"]*)\"$")
 	public void i_add_the_states_bellow_to_the_request(String arg1, DataTable arg2) throws Throwable {
 		for (Map<String, String> examples : arg2.asMaps(String.class, String.class)) {
 	    	driver.openURL(host+arg1);

@@ -27,4 +27,4 @@ Feature: The GUI response form stores requests and automatically
       |   "TEXT"       |                  "TextMime"   								  	 | "application/text;" |
       |   "JSON"       |       "{ /'name/':/'John/', /'age/':30 }"         | "application/json;" |
       |   "XML"        |         "<note><to>Test</to></note>"              | "application/xml;"  |
-      |   "HTML"       |   "<!DOCTYPE html><html><body></body></html>"     | "application/html;" |
+      |   "HTML"       |         "<html> Det här är HTML </html>"          | "application/html;" |

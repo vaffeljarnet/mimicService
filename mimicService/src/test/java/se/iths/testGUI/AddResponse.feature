@@ -34,7 +34,7 @@ Feature: Add response adds states to a request
     Then "2" is displayed
     And the browser is closed
     
-@AddResponse112
+@AddResponse113
   Scenario: addResponse adds state to the end of a request when the current 
   					state is the first in the sequense
     Given that the mimicService is running

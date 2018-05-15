@@ -17,7 +17,8 @@ Feature: As a Tester I would like the mock to learn how to respond
  			|"div?value1=4&value2=2"  |    "2"      |  "div?value1=60&value2=20" |     "3"     |  "div?value1=8&value2=4"   |       "2"        |
  			
 @MachineLearning112
-  Scenario Outline: Learn how to calculate add with multiple digit values
+  Scenario Outline: Learn how to calculate when teaching with values
+  									ending with the same digit.
     Given that the mimicService is running
     When I teach the mock that <questionOne> has response <responseOne>
     And I teach the mock that <questionTwo> has response <responseTwo>
@@ -27,7 +28,6 @@ Feature: As a Tester I would like the mock to learn how to respond
     	|       questionOne         | responseOne  |       questionTwo            | responseTwo  |     notKnownQuestion       | notKnownResponse |
  			|"add?value1=10&value2=20"  |    "30"      | "add?value1=20&value2=20"    |     "40"     |  "add?value1=1&value2=2"   |       "3"        |
  			|"add?value1=15&value2=15"  |    "30"      | "add?value1=25&value2=25"    |     "50"     |  "add?value1=1&value2=1"   |       "2"        |
- 			|"add?value1=21&value2=34"  |    "55"      | "add?value1=13&value2=12"    |     "25"     |  "add?value1=1&value2=1"   |       "2"        |
  			|"add?value1=26&value2=16"  |    "42"      | "add?value1=36&value2=46"    |     "82"     |  "add?value1=1&value2=1"   |       "2"        |
  			|"add?value1=111&value2=111"|    "222"     | "add?value1=222&value2=222"  |     "444"    |  "add?value1=1&value2=1"   |       "2"        |
  	
@@ -65,22 +65,20 @@ Feature: As a Tester I would like the mock to learn how to respond
     And I start mimicService
 		Then "add?value1=1&value2=3" respondes with "4"
 
-#Added in sprint 5
 @MachineLearning117
   Scenario Outline: Correcting a request does not affect learned formats
     Given that the mimicService is running
 		When I teach the mock that <questionOne> has response <responseOne>
     And I teach the mock that <questionTwo> has response <responseTwo>
-    And "add?value1=1&value2=1" does not responde with "2"
-    When I teach the mock that "add?value1=1&value2=3" has response "4"
-		Then "add?value1=2&value2=2" respondes with "4"
+    And "add?value1=1&value2=2" does not responde with "3"
+    When I teach the mock that "add?value1=1&value2=2" has response "3"
+		Then "add?value1=1&value2=3" respondes with "4"
     
     Examples:
     	|       questionOne         | responseOne |       questionTwo          | responseTwo |
  			| "add?value1=10&value2=10" |    "20"     |  "add?value1=20&value2=20" |     "40"    |
  			| "add?value1=10&value2=20" |    "30"     |  "add?value1=20&value2=20" |     "40"    |
-		
-#Added in sprint 5		
+			
 @MachineLearning118
   Scenario: Mimic can learn how to respond with complex responses 
     Given that the mimicService is running
@@ -88,6 +86,16 @@ Feature: As a Tester I would like the mock to learn how to respond
     And that the mock has learned "montlyCost?TotalCost=20000&Months=10" with "{ 'TotalCost': 20000,'MontlyCost': 2000,'Months': 10;}" 
 		Then "montlyCost?TotalCost=30000&Months=10" respondes with "{ 'TotalCost': 30000,'MontlyCost': 3000,'Months': 10;}"
 		
+@MachineLearning119
+	Scenario Outline: Teaching Mimic wrong
+	Given that the mimicService is running
+	When I teach the mock that <questionOne> has response <responseOne>
+  And I teach the mock that <questionTwo> has response <responseTwo>
+  Then <notKnownQuestion> returns the response form
+    
+    Examples:
+    	|       questionOne         | responseOne  |       questionTwo            | responseTwo  |     notKnownQuestion       |
+ 			|"add?value1=10&value2=20"  |    "15"      | "add?value1=20&value2=20"    |     "30"     |  "add?value1=1&value2=2"   |
 		
 	  
    

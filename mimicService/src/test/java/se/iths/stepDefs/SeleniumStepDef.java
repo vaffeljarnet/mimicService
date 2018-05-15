@@ -21,6 +21,12 @@ public class SeleniumStepDef {
 	    driver.openURL(host+arg1);
 	}
 	
+	@When("^I open the browser$")
+	public void i_open_the_browser() throws Throwable {
+		driver = new MimicGuiSelenium();
+	    driver.openURL("http://www.google.se");
+	}
+	
 	@When("^I open the url \"([^\"]*)\" in Chrome$")
 	public void i_open_the_url_in_chrome(String arg1) throws Throwable {
 		driver = new MimicGuiSelenium("chrome");

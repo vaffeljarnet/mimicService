@@ -1,6 +1,5 @@
 @ViewRequests
 Feature: Stored requests are visible in the overview returned by /viewRequests
-
 @ViewRequests111
   Scenario: With one request stored it is visible in ViewRequests
     Given that the mimicService is running
@@ -11,10 +10,10 @@ Feature: Stored requests are visible in the overview returned by /viewRequests
     And the browser is closed
 
     
-@ViewRequests111
+@ViewRequests112
   Scenario: With multiple requests stored all are visible in ViewRequests
     Given that the mimicService is running
-    When I open the browser with the request "start"
+    When I open the browser
     And I teach Mimic the below requests and responses
     | request | response |
     |   I			| 	drink  |
@@ -24,4 +23,13 @@ Feature: Stored requests are visible in the overview returned by /viewRequests
 		| request |
     |   I			| 
     |  your   |
+    And the browser is closed
+        
+ @ViewRequests113
+  Scenario: Open view requests with no responses stored
+    Given that the mimicService is running
+    And that no requests are stored
+    When I open the browser
+    And I make a /viewRequests request
+    Then "No requests" is displayed
     And the browser is closed

@@ -14,7 +14,7 @@ Feature: The GUI response form stores requests and automatically
   
 
 @ResponseForm112 
-  Scenario Outline: Store mime type response with response form
+  Scenario Outline: Store mime type response with auto recognition
     Given that the mimicService is running
     When I open the browser with the request <request>
     And I input <response> in the response form
@@ -24,7 +24,25 @@ Feature: The GUI response form stores requests and automatically
 
     Examples: 
       |   request      |                    response    			  			     |      mimeType       |
-      |   "TEXT"       |                  "TextMime"   								  	 | "application/text;" |
+      |   "TEXT"       |                  "TextMime"   								  	 | "text/plain;"       |
+      |   "JSON"       |          "{ 'name':'John', 'age':30 }"            | "application/json;" |
+      |   "XML"        |         "<note><to>Test</to></note>"              | "application/xml;"  |
+      |   "HTML"       |         "<html>Det här är HTML</html>"            | "text/html;"        |
+      
+#New test case Sprint 6      
+@ResponseForm113 
+  Scenario Outline: Store mime type response with manual type set
+    Given that the mimicService is running
+    When I open the browser with the request <request>
+    And I set mime type as <request>
+    And I input <response> in the response form
+    And I press the learn button
+    And the browser is closed
+    Then the request <request> has the mime type <mimeType>
+
+    Examples: 
+      |   request      |                    response    			  			     | mimeType            |
+      |   "TEXT"       |                  "TextMime"   								  	 | "text/plain;"       |
       |   "JSON"       |       "{ /'name/':/'John/', /'age/':30 }"         | "application/json;" |
       |   "XML"        |         "<note><to>Test</to></note>"              | "application/xml;"  |
-      |   "HTML"       |         "<html> Det här är HTML </html>"          | "application/html;" |
+      |   "HTML"       |         "<html> Det här är HTML </html>"          | "text/html;"        |

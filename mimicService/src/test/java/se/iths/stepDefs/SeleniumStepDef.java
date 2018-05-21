@@ -120,6 +120,11 @@ public class SeleniumStepDef {
 	    }
 	}
 	
+	@When("^I set mime type as \"([^\"]*)\"$")
+	public void i_set_mime_type_as(String arg1) throws Throwable {
+		driver.selectMimeType(arg1);
+	}
+	
 	@Then("^\"([^\"]*)\" is displayed$")
 	public void is_displayed(String arg1) throws Throwable {
 		assertEquals(arg1, driver.getValue());

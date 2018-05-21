@@ -43,6 +43,26 @@ public class MimicGuiSelenium {
 		element.click();
 	}
 	
+	public void selectMimeType(String mimeType) {
+		WebElement optionBox = webdriver.findElement(By.cssSelector("[name=\"mime\"]"));
+		optionBox.click();
+		WebElement selection; 
+		if(mimeType.equalsIgnoreCase("JSON")) {
+			selection = webdriver.findElement(By.xpath("//option[@value='application/json']"));
+		}else if(mimeType.equalsIgnoreCase("XML")) {
+			selection = webdriver.findElement(By.xpath("//option[@value='application/xml']"));
+		}else if(mimeType.equalsIgnoreCase("HTML")) {
+			selection = webdriver.findElement(By.xpath("//option[@value='text/html']"));
+		}else if(mimeType.equalsIgnoreCase("TEXT")) {
+			selection = webdriver.findElement(By.xpath("//option[@value='text/plain']"));
+		}else if(mimeType.equalsIgnoreCase("AUTO")) {
+			selection = webdriver.findElement(By.xpath("//option[@value='auto']"));
+		}else {
+			selection = null;
+		}
+		selection.click();
+	}
+	
 	public String getValue() {
 		WebElement element = webdriver.findElement(By.cssSelector("body"));
 		return element.getText();

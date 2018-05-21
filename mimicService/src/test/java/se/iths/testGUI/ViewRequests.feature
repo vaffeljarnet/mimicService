@@ -33,3 +33,37 @@ Feature: Stored requests are visible in the overview returned by /viewRequests
     And I make a /viewRequests request
     Then "No requests" is displayed
     And the browser is closed
+    
+#New test case sprint 6    
+@ViewRequests114
+  Scenario: Click on requests in ViewRequests to view the response
+    Given that the mimicService is running
+    When I open the browser
+    And I teach Mimic the below requests and responses
+    | request | response |
+    |   I			| 	drink  |
+    |  your   | milkshake|		
+		And I make a /viewRequests request
+		Then all requests below are clickable and displays the corresponding response
+		| request | response |
+    |   I			| 	drink  |
+    |  your   | milkshake|
+    And the browser is closed
+    
+#New test case sprint 6    
+@ViewRequests115
+  Scenario: A request with multiple states displays the selected
+  					states response when clicked
+    Given that the mimicService is running
+    When I open the browser
+    And I add the states below to the request "numbers"
+    |state|
+    | one |
+    | two |
+    |three|
+    And I make a /viewRequests request
+    And I click state "3" in the viewRequests overview
+    Then "three" is displayed
+    And the browser is closed
+    
+    

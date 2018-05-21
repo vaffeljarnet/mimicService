@@ -111,8 +111,8 @@ public class SeleniumStepDef {
 	
 	@When("^I add the states below to the request \"([^\"]*)\"$")
 	public void i_add_the_states_bellow_to_the_request(String arg1, DataTable arg2) throws Throwable {
+		driver.openURL(host+arg1);
 		for (Map<String, String> examples : arg2.asMaps(String.class, String.class)) {
-	    	driver.openURL(host+arg1);
 	    	driver.openURL(host+"addResponse");
 	    	driver.sendText(examples.get("state"));
 	    	driver.clickLearn();
@@ -120,19 +120,15 @@ public class SeleniumStepDef {
 	    }
 	}
 	
+	@When("^I click state \"([^\"]*)\" in the viewRequests overview$")
+	public void i_click_state_in_viewRequests(String arg1) throws Throwable {
+		int index = Integer.parseInt(arg1);
+		driver.clickViewRequestIndex(index);
+	}
+	
 	@When("^I set mime type as \"([^\"]*)\"$")
 	public void i_set_mime_type_as(String arg1) throws Throwable {
 		driver.selectMimeType(arg1);
-	}
-	
-	@Then("^\"([^\"]*)\" is displayed$")
-	public void is_displayed(String arg1) throws Throwable {
-		assertEquals(arg1, driver.getValue());
-	}
-	
-	@Then("^the browser is closed$")
-	public void i_close_the_browser() throws Throwable {
-	    driver.quitSelenium();
 	}
 
 	@Then("^\"([^\"]*)\" is present in the overview$")
@@ -149,7 +145,17 @@ public class SeleniumStepDef {
 	    	driver.delay(100);
 	    }
 	}
-
+	
+	@Then("^\"([^\"]*)\" is displayed$")
+	public void is_displayed(String arg1) throws Throwable {
+		assertEquals(arg1, driver.getValue());
+	}
+	
+	@Then("^the browser is closed$")
+	public void i_close_the_browser() throws Throwable {
+	    driver.quitSelenium();
+	}
+	
 	@Then("^all requests below are present in the overview$")
 	public void all_requests_below_are_present_in_the_overview(DataTable arg1) throws Throwable {
 		for (Map<String, String> examples : arg1.asMaps(String.class, String.class)) {
@@ -157,6 +163,16 @@ public class SeleniumStepDef {
 	    }
 	}
 	
+	@Then("^all requests below are clickable and displays the corresponding response$")
+	public void all_requests_below_are_clickable(DataTable arg1) throws Throwable {
+		int index = 1;
+		for (Map<String, String> examples : arg1.asMaps(String.class, String.class)) {
+	    	driver.clickViewRequestIndex(index);
+	    	assertEquals(examples.get("response"), driver.getValue());
+	    	driver.stepBack();
+	    	index++;
+	    }
+	}
 	
 }
 

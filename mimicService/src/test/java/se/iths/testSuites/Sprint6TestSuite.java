@@ -8,10 +8,12 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		tags = {"@UnlearnResponse"},
-		glue = {"classpath:se/iths/stepDefs"},
-		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
-		monochrome = true
+		tags = {""},
+		glue = {"classpath:se/iths/stepDefs"}
 		)
-public class TempRunner {}
+public class Sprint6TestSuite {}
 
+// MachineLearning113, 117, 119
+//LearnNextResponse113
+//GUILearnNextResponse111
+//ViewRequests114, 115

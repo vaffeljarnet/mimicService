@@ -1,25 +1,15 @@
 @LearnNextResponse
-Feature: LearnNextResponse adds states to a request        
+Feature: LearnNextResponse adds states/responses to a request        
+ 
+#Replaced 112 with 113 test case
  
 @LearnNextResponse111
   Scenario: LearnNextResponse adds a response to a request
   Given that the mimicService is running
   When I teach the mock that "1+1" has response "2"
   Then "1+1" respondes with "2" 
-  
-@LearnNextResponse112
-   Scenario Outline: Set new state for request with LearnNextResponse
-    Given that the mimicService is running
-    And that the mock has learned <questionOne> with <responseOne>
-    When I teach the mock that <questionOne> has response <responseTwo>
-    When I teach the mock that <questionOne> has response <responseThree>
-    Then <questionOne> respondes with <responseThree>
-
-    Examples:
-      | questionOne| responseOne | responseTwo |responseThree| 
-      | "1+1"      |     "2"     | "4"         |   "6"       |
       
-@LearnNextResponse113
+@LearnNextResponse112
 	Scenario: Store sequense with LearnNextResponse and check that all 
 					  states are stored after reset
 	  Given that the mimicService is running
@@ -37,3 +27,17 @@ Feature: LearnNextResponse adds states to a request
       |    1+1      |       3       |
       |    1+1      |       4       |
       |    1+1      |       5       |
+
+#New test case sprint 6      
+@LearnNextResponse113
+  Scenario Outline: You can store requests with forward slash sign
+  Given that the mimicService is running
+  When I teach the mock that <request> has response <response>
+  Then <request> respondes with <response>
+  
+  Examples:
+  |   request   |  response  |
+  | "test/test" |   "test"   |
+  | "te/te/te"  |   "test"   |
+  
+

@@ -31,12 +31,12 @@ Feature: As a Tester I would like the mock to learn how to respond
  			|"add?value1=26&value2=16"  |    "42"      | "add?value1=36&value2=46"    |     "82"     |  "add?value1=1&value2=1"   |       "2"        |
  			|"add?value1=111&value2=111"|    "222"     | "add?value1=222&value2=222"  |     "444"    |  "add?value1=1&value2=1"   |       "2"        |
  	
- 	#Try to end test case when not completing		
-  #@MachineLearning113
-	#Scenario: Calling with format "/text?param"
-	#	Given that the mimicService is running
-	 # When I make the request "test?ett"
-	 # Then "test?ett" returns the response form 
+ 	
+@MachineLearning113
+	Scenario: Calling with format "/text?param"
+		Given that the mimicService is running
+	  When I make the request "test?ett"
+	  Then "test?ett" returns the response form 
 	  
 @MachineLearning114
   Scenario: Learn how to calculate add while alternating with mult

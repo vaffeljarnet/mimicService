@@ -18,7 +18,7 @@ public class MimicGuiSelenium {
 		System.setProperty("webdriver.chrome.driver", "commonFiles/webDrivers/chromedriver.exe");
 		webdriver = new ChromeDriver();
 		webdriver.manage().window().maximize();
-		webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		webdriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
 	
 	public MimicGuiSelenium(String browser) {
@@ -63,9 +63,18 @@ public class MimicGuiSelenium {
 		selection.click();
 	}
 	
+	public void clickViewRequestIndex(int index) {
+		WebElement viewRequest = webdriver.findElement(By.cssSelector("body > a:nth-of-type("+index+")"));
+		viewRequest.click();
+	}
+	
 	public String getValue() {
 		WebElement element = webdriver.findElement(By.cssSelector("body"));
 		return element.getText();
+	}
+	
+	public void stepBack() {
+		webdriver.navigate().back();
 	}
 	
 	public void delay(int milliseconds) {

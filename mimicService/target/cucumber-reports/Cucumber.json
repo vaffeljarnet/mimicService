@@ -1,0 +1,571 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "UnlearnResponse removes the current and following states",
+        "description": "",
+        "id": "unlearnresponse-removes-the-current-and-the-following-states-of-the-latest-request;unlearnresponse-removes-the-current-and-following-states",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2828025176,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that the mimicService is running",
+            "match": {
+              "location": "MimicStepDef.that_the_mimicService_is_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6221309,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that no requests are stored",
+            "match": {
+              "location": "MimicStepDef.that_no_requests_are_stored()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1651674034,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I teach the mock the below sequense",
+            "match": {
+              "location": "MimicStepDef.i_teach_the_mock_the_bellow_sequense(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "question",
+                  "response"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "1+1",
+                  "2"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "1+1",
+                  "3"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "1+1",
+                  "4"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "1+1",
+                  "5"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 504464126,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I call resetState",
+            "match": {
+              "location": "MimicStepDef.i_call_resetState()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108242633,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I make the request \"1+1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 20
+                }
+              ],
+              "location": "MimicStepDef.i_make_the_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103980234,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I make the request \"1+1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 20
+                }
+              ],
+              "location": "MimicStepDef.i_make_the_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103825354,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I make the request \"1+1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 20
+                }
+              ],
+              "location": "MimicStepDef.i_make_the_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104223178,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I call unlearnResponse",
+            "match": {
+              "location": "MimicStepDef.i_call_unlearn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106550729,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I make the request \"1+1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 20
+                }
+              ],
+              "location": "MimicStepDef.i_make_the_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111252679,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"1+1\" respondes with \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 1
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "MimicStepDef.respondes_with(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@UnlearnResponse111"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Unlearn question with one state",
+        "description": "",
+        "id": "unlearnresponse-removes-the-current-and-the-following-states-of-the-latest-request;unlearn-question-with-one-state",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2635480251,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "that the mimicService is running",
+            "match": {
+              "location": "MimicStepDef.that_the_mimicService_is_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18939894,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "that the mock has learned \"1+1\" with \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 27
+                },
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105949385,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I call unlearnResponse",
+            "match": {
+              "location": "MimicStepDef.i_call_unlearn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104256202,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "\"1+1\" returns the response form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 1
+                }
+              ],
+              "location": "MimicStepDef.returns_the_response_form(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@UnlearnResponse112"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "UnlearnResponse does not affect other stored responses",
+        "description": "",
+        "id": "unlearnresponse-removes-the-current-and-the-following-states-of-the-latest-request;unlearnresponse-does-not-affect-other-stored-responses",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2625729471,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "that the mimicService is running",
+            "match": {
+              "location": "MimicStepDef.that_the_mimicService_is_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14272504,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I teach the mock that \"1+1\" has response \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 23
+                },
+                {
+                  "val": "2",
+                  "offset": 42
+                }
+              ],
+              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9259259,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I teach the mock that \"2+2\" has response \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2+2",
+                  "offset": 23
+                },
+                {
+                  "val": "4",
+                  "offset": 42
+                }
+              ],
+              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8848892,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I teach the mock that \"3+3\" has response \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3+3",
+                  "offset": 23
+                },
+                {
+                  "val": "6",
+                  "offset": 42
+                }
+              ],
+              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105047754,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I make the request \"2+2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2+2",
+                  "offset": 20
+                }
+              ],
+              "location": "MimicStepDef.i_make_the_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104754378,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I call unlearnResponse",
+            "match": {
+              "location": "MimicStepDef.i_call_unlearn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106107082,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "\"2+2\" returns the response form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2+2",
+                  "offset": 1
+                }
+              ],
+              "location": "MimicStepDef.returns_the_response_form(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105107659,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "\"1+1\" respondes with \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 1
+                },
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "MimicStepDef.respondes_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105017802,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "\"3+3\" respondes with \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3+3",
+                  "offset": 1
+                },
+                {
+                  "val": "6",
+                  "offset": 22
+                }
+              ],
+              "location": "MimicStepDef.respondes_with(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@UnlearnResponse113"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "UnlearnResponse removes response from last stored request",
+        "description": "\t\t\twithout the need to make that request again",
+        "id": "unlearnresponse-removes-the-current-and-the-following-states-of-the-latest-request;unlearnresponse-removes-response-from-last-stored-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2647911092,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "that the mimicService is running",
+            "match": {
+              "location": "MimicStepDef.that_the_mimicService_is_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13970937,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I teach the mock that \"1+1\" has response \"2+2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 23
+                },
+                {
+                  "val": "2+2",
+                  "offset": 42
+                }
+              ],
+              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106900169,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I call unlearnResponse",
+            "match": {
+              "location": "MimicStepDef.i_call_unlearn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104620234,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "\"1+1\" returns the response form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1+1",
+                  "offset": 1
+                }
+              ],
+              "location": "MimicStepDef.returns_the_response_form(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@UnlearnResponse114"
+          }
+        ]
+      }
+    ],
+    "name": "UnlearnResponse removes the current and the following states of the latest request",
+    "description": "",
+    "id": "unlearnresponse-removes-the-current-and-the-following-states-of-the-latest-request",
+    "keyword": "Feature",
+    "uri": "se/iths/testAPI/UnlearnResponse.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UnlearnResponse"
+      }
+    ]
+  }
+]

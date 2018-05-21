@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		tags = {"@ResponseForm112"},
+		tags = {"@UnlearnAllResponses"},
 		glue = {"classpath:se/iths/stepDefs"}
 		)
 public class TempRunner {}

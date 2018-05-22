@@ -8,8 +8,10 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		tags = {""},
-		glue = {"classpath:se/iths/stepDefs"}
+		tags = {"@MachineLearning113"},
+		glue = {"classpath:se/iths/stepDefs"},
+		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+		monochrome = true
 		)
 public class Sprint6TestSuite {}
 

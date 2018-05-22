@@ -11,6 +11,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		glue = {"classpath:se/iths/stepDefs"}
+		glue = {"classpath:se/iths/stepDefs"},
+		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+		monochrome = true
 		)
 public class RegressionTestSuite {}

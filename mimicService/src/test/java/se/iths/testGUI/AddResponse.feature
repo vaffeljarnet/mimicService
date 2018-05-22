@@ -1,4 +1,4 @@
-@AddResponse
+@AddResponseFeature
 Feature: Add response adds states to a request
 
 @AddResponse111

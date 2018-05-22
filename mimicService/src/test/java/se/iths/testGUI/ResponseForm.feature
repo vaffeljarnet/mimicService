@@ -1,4 +1,4 @@
-@ResponseForm
+@ResponseFormFeature
 Feature: The GUI response form stores requests and automatically
 				 recognises mime type of request
 	

@@ -1,4 +1,4 @@
-@ViewRequests
+@ViewRequestsFeature
 Feature: Stored requests are visible in the overview returned by /viewRequests
 @ViewRequests111
   Scenario: With one request stored it is visible in ViewRequests

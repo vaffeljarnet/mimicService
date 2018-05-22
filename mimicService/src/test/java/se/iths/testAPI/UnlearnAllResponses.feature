@@ -1,4 +1,4 @@
-@UnlearnAllResponses
+@UnlearnAllResponsesFeature
 Feature: Unlearn all responses so that I can rerun all the tests without restarting the service
 
 @UnlearnAllResponses111

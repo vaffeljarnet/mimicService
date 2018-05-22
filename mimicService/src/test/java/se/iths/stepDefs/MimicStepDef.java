@@ -73,6 +73,12 @@ public class MimicStepDef {
 		Assert.assertEquals(arg2, service.executeGetRequest(host + arg1));
 	}
 	
+	@Then("^\"([^\"]*)\" does not return empty response$")
+	public void does_not_return_empty_response(String arg1, String arg2) throws Throwable {
+		helper.wait(100);
+		Assert.assertFalse(service.executeGetRequest(host + arg1).equals(""));
+	}
+	
 	@Then("^\"([^\"]*)\" does not responde with \"([^\"]*)\"$")
 	public void does_not_responde_with(String arg1, String arg2) throws Throwable {
 		helper.wait(100);

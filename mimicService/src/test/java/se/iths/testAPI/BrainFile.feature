@@ -1,4 +1,4 @@
-@BrainFile
+@BrainFileFeature
 Feature: Request are stored in the Brain file when terminating mimicService
 
 @StoreInBrainFile111

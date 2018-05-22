@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="31" failures="0" name="se.iths.testSuites.TempRunner" time="0.004" errors="0" skipped="0">
+<testsuite tests="31" failures="0" name="se.iths.testSuites.TempRunner" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\larss_000\git\localMimicService\mimicService"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\larss_000\.jenkins\workspace\MimicService"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="Sprint6TestSuite.java,TempRunner.java"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\larss_000\git\localMimicService\mimicService"/>
+    <property name="user.dir" value="C:\Users\larss_000\.jenkins\workspace\MimicService"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -55,14 +55,12 @@
     <property name="java.version" value="1.8.0_144"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Program Files\Apache Maven\apache-maven-3.5.2\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
@@ -91,7 +89,7 @@
   <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Then &quot;2+2&quot; returns the response form" time="0"/>
   <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And &quot;1+1&quot; respondes with &quot;2&quot;" time="0"/>
   <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And &quot;3+3&quot; respondes with &quot;6&quot;" time="0"/>
-  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Scenario: UnlearnResponse does not affect other stored responses" time="0.004"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Scenario: UnlearnResponse does not affect other stored responses" time="0"/>
   <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="Given that the mimicService is running" time="0"/>
   <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="When I teach the mock that &quot;1+1&quot; has response &quot;2+2&quot;" time="0"/>
   <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="And I call unlearnResponse" time="0"/>

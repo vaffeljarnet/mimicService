@@ -1,5 +1,5 @@
 #This feature need to be refractored and split in two. One for the new relearnResponse, and one for addResponse
-@RelearnResponse
+@RelearnResponseFeature
 Feature: Relearn function with web interface
 
 @RelearnResponse111

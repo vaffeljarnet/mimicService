@@ -1,4 +1,4 @@
-@ResetState
+@ResetStateFeature
 Feature: As a Tester I would like to reset the state so that I can run a complete test scenario
 
 @ResetState111

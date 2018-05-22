@@ -1,4 +1,4 @@
-@MachineLearning
+@MachineLearningFeature
 Feature: As a Tester I would like the mock to learn how to respond 
 				to requests that I have not defined so that I do not 
         have to create code for that manually (only add, mult, sub and div)

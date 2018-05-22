@@ -1,4 +1,4 @@
-@LearnNextResponse
+@LearnNextResponseFeature
 Feature: LearnNextResponse adds states/responses to a request        
  
 #Replaced 112 with 113 test case

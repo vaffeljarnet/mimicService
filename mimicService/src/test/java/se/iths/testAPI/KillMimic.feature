@@ -1,4 +1,4 @@
-@KillMimic
+@KillMimicFeature
 Feature: KillMimic terminates the service
 
 @KillMimic111

@@ -1,4 +1,4 @@
-@UnlearnResponse
+@UnlearnResponseFeature
 Feature: UnlearnResponse removes the current and the following states of the latest request
 
 @UnlearnResponse111

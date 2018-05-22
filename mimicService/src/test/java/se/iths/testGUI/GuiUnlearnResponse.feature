@@ -1,4 +1,4 @@
-@GuiUnlearnResponse
+@GuiUnlearnResponseFeature
 Feature: Using UnlearnResponse in the GUI
 
 @GuiUnlearnResponse114

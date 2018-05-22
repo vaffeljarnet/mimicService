@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/java",
 		tags = {"@UnlearnResponse"},
 		glue = {"classpath:se/iths/stepDefs"},
-		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+		plugin = { "pretty", "json:target/cucumber-reports/tempRunnerResult.json" },
 		monochrome = true
 		)
 public class TempRunner {}

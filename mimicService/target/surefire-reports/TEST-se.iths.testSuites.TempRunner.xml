@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="se.iths.testSuites.Sprint6TestSuite" time="0" errors="0" skipped="0">
+<testsuite tests="31" failures="0" name="se.iths.testSuites.TempRunner" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -66,8 +66,35 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Given that the mimicService is running" time="0"/>
-  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="When I make the request &quot;test?ett&quot;" time="0"/>
-  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Then &quot;test?ett&quot; returns the response form" time="0"/>
-  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Scenario: Calling with format &quot;/text?param&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="Given that the mimicService is running" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And that no requests are stored" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="When I teach the mock the below sequense" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I call resetState" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I make the request &quot;1+1&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I make the request &quot;1+1&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I make the request &quot;1+1&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I call unlearnResponse" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="And I make the request &quot;1+1&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="Then &quot;1+1&quot; respondes with &quot;3&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes the current and following states" name="Scenario: UnlearnResponse removes the current and following states" time="0"/>
+  <testcase classname="Scenario: Unlearn question with one state" name="Given that the mimicService is running" time="0"/>
+  <testcase classname="Scenario: Unlearn question with one state" name="And that the mock has learned &quot;1+1&quot; with &quot;2&quot;" time="0"/>
+  <testcase classname="Scenario: Unlearn question with one state" name="When I call unlearnResponse" time="0"/>
+  <testcase classname="Scenario: Unlearn question with one state" name="Then &quot;1+1&quot; returns the response form" time="0"/>
+  <testcase classname="Scenario: Unlearn question with one state" name="Scenario: Unlearn question with one state" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Given that the mimicService is running" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="When I teach the mock that &quot;1+1&quot; has response &quot;2&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And I teach the mock that &quot;2+2&quot; has response &quot;4&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And I teach the mock that &quot;3+3&quot; has response &quot;6&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And I make the request &quot;2+2&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And I call unlearnResponse" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Then &quot;2+2&quot; returns the response form" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And &quot;1+1&quot; respondes with &quot;2&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="And &quot;3+3&quot; respondes with &quot;6&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse does not affect other stored responses" name="Scenario: UnlearnResponse does not affect other stored responses" time="0.004"/>
+  <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="Given that the mimicService is running" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="When I teach the mock that &quot;1+1&quot; has response &quot;2+2&quot;" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="And I call unlearnResponse" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="Then &quot;1+1&quot; returns the response form" time="0"/>
+  <testcase classname="Scenario: UnlearnResponse removes response from last stored request" name="Scenario: UnlearnResponse removes response from last stored request" time="0"/>
 </testsuite>

@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java",
 		glue = {"classpath:se/iths/stepDefs"},
-		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+		plugin = { "pretty", "json:target/cucumber-reports/regressionResults.json" },
 		monochrome = true
 		)
 public class RegressionTestSuite {}

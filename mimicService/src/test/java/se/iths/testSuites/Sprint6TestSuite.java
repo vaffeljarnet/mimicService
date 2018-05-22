@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java",
-		tags = {"@MachineLearning113,@MachineLearning117,@MachineLearning119,"
-				+ "@LearnNextResponse113,@GUILearnNextResponse111,"
+		tags = {"@MachineLearning113,@MachineLearning118,@MachineLearning119,"
+				+ "@LearnNextResponse113,@GuiLearnNextResponse111,"
 				+ "@ViewRequests114,@ViewRequests115,"
 				+ "@ResponseForm112,@ResponseForm113"},
 		glue = {"classpath:se/iths/stepDefs"},

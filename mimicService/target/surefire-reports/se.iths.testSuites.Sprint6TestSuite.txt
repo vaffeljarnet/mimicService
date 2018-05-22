@@ -1,64 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: se.iths.testSuites.Sprint6TestSuite
 -------------------------------------------------------------------------------
-Tests run: 105, Failures: 16, Errors: 12, Skipped: 5, Time elapsed: 210.082 sec <<< FAILURE!
-Then "test/test" respondes with "test"(| "test/test" | "test" |)  Time elapsed: 0.016 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[test]> but was:<[Error]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ?.Then "test/test" respondes with "test"(se/iths/testAPI/LearnNextResponse.feature:36)
-
-| "test/test" | "test" |  Time elapsed: 0.016 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[test]> but was:<[Error]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ?.Then "test/test" respondes with "test"(se/iths/testAPI/LearnNextResponse.feature:36)
-
-Then "te/te/te" respondes with "test"(| "te/te/te" | "test" |)  Time elapsed: 0.001 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[test]> but was:<["4"]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ?.Then "te/te/te" respondes with "test"(se/iths/testAPI/LearnNextResponse.feature:36)
-
-| "te/te/te" | "test" |  Time elapsed: 0.001 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[test]> but was:<["4"]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ?.Then "te/te/te" respondes with "test"(se/iths/testAPI/LearnNextResponse.feature:36)
-
-Then "test?ett" returns the response form(Scenario: Calling with format "/text?param")  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Paste or type json, xml, html or text response to learn and press Learn<br><br><form action="/learnresponse" method="post"><select name='mime'><option value='auto'>Auto</option><option value='application/json'>JSON</option><option value='application/xml'>XML</option><option value='text/html'>HTML</option><option value='text/plain'>Text</option></select><br><textarea name='text' rows='30' cols='150'></textarea><br><br><input type="submit" id='learn' value="Learn"></form>]> but was:<["8"]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)
-	at ?.Then "test?ett" returns the response form(se/iths/testAPI/MachineLearning.feature:39)
-
-Scenario: Calling with format "/text?param"  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Paste or type json, xml, html or text response to learn and press Learn<br><br><form action="/learnresponse" method="post"><select name='mime'><option value='auto'>Auto</option><option value='application/json'>JSON</option><option value='application/xml'>XML</option><option value='text/html'>HTML</option><option value='text/plain'>Text</option></select><br><textarea name='text' rows='30' cols='150'></textarea><br><br><input type="submit" id='learn' value="Learn"></form>]> but was:<["8"]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)
-	at ?.Then "test?ett" returns the response form(se/iths/testAPI/MachineLearning.feature:39)
-
-And that the mock has learned "montlyCost?TotalCost=10000&Months=10" with "{ 'TotalCost': 10000,'MontlyCost': 1000,'Months': 10;}"(Scenario: Mimic can learn how to respond with complex responses)  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[{ 'TotalCost': 10000,'MontlyCost': 1000,'Months': 10;}]> but was:<[Error]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)
-	at ?.And that the mock has learned "montlyCost?TotalCost=10000&Months=10" with "{ 'TotalCost': 10000,'MontlyCost': 1000,'Months': 10;}"(se/iths/testAPI/MachineLearning.feature:71)
-
-Scenario: Mimic can learn how to respond with complex responses  Time elapsed: 0 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[{ 'TotalCost': 10000,'MontlyCost': 1000,'Months': 10;}]> but was:<[Error]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)
-	at ?.And that the mock has learned "montlyCost?TotalCost=10000&Months=10" with "{ 'TotalCost': 10000,'MontlyCost': 1000,'Months': 10;}"(se/iths/testAPI/MachineLearning.feature:71)
-
-And I input "4" in the response form and press the Learn button(Scenario: LearnNextResponse without paramaters)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 105, Failures: 8, Errors: 2, Skipped: 3, Time elapsed: 180.684 sec <<< FAILURE!
+And I input "4" in the response form and press the Learn button(Scenario: LearnNextResponse without paramaters)  Time elapsed: 0.015 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/form/textarea"}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -68,7 +12,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'LAPTOP-1A0S11AO', ip: '192.168.1.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: a88c4a6636b31ea1b9451ffee8695882
+Session ID: 4305214f72e62e5568077cef7e5b0c35
 *** Element info: {Using=xpath, value=/html/body/form/textarea}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -90,7 +34,7 @@ Session ID: a88c4a6636b31ea1b9451ffee8695882
 	at se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)
 	at ?.And I input "4" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)
 
-Scenario: LearnNextResponse without paramaters  Time elapsed: 0 sec  <<< ERROR!
+Scenario: LearnNextResponse without paramaters  Time elapsed: 0.015 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/form/textarea"}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -100,7 +44,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'LAPTOP-1A0S11AO', ip: '192.168.1.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: a88c4a6636b31ea1b9451ffee8695882
+Session ID: 4305214f72e62e5568077cef7e5b0c35
 *** Element info: {Using=xpath, value=/html/body/form/textarea}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -122,103 +66,53 @@ Session ID: a88c4a6636b31ea1b9451ffee8695882
 	at se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)
 	at ?.And I input "4" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)
 
-Then the request "TEXT" has the mime type "text/plain;"(| "TEXT" | "TextMime" | "text/plain;" |)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "TEXT" has the mime type "text/plain;"(se/iths/testGUI/ResponseForm.feature:23)
-
-| "TEXT" | "TextMime" | "text/plain;" |  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "TEXT" has the mime type "text/plain;"(se/iths/testGUI/ResponseForm.feature:23)
-
-Then the request "JSON" has the mime type "application/json;"(| "JSON" | "{ 'name':'John', 'age':30 }" | "application/json;" |)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+Then the request "JSON" has the mime type "application/json;"(| "JSON" | "{ 'name':'John', 'age':30 }" | "application/json;" |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "JSON" has the mime type "application/json;"(se/iths/testGUI/ResponseForm.feature:23)
 
-| "JSON" | "{ 'name':'John', 'age':30 }" | "application/json;" |  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+| "JSON" | "{ 'name':'John', 'age':30 }" | "application/json;" |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "JSON" has the mime type "application/json;"(se/iths/testGUI/ResponseForm.feature:23)
 
-Then the request "XML" has the mime type "application/xml;"(| "XML" | "<note><to>Test</to></note>" | "application/xml;" |)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+Then the request "XML" has the mime type "application/xml;"(| "XML" | "<note><to>Test</to></note>" | "application/xml;" |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "XML" has the mime type "application/xml;"(se/iths/testGUI/ResponseForm.feature:23)
 
-| "XML" | "<note><to>Test</to></note>" | "application/xml;" |  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+| "XML" | "<note><to>Test</to></note>" | "application/xml;" |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "XML" has the mime type "application/xml;"(se/iths/testGUI/ResponseForm.feature:23)
 
-Then the request "HTML" has the mime type "text/html;"(| "HTML" | "<html>Det här är HTML</html>" | "text/html;" |)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+Then the request "HTML" has the mime type "text/html;"(| "HTML" | "<html>Det här är HTML</html>" | "text/html;" |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "HTML" has the mime type "text/html;"(se/iths/testGUI/ResponseForm.feature:23)
 
-| "HTML" | "<html>Det här är HTML</html>" | "text/html;" |  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
+| "HTML" | "<html>Det här är HTML</html>" | "text/html;" |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
 	at ?.Then the request "HTML" has the mime type "text/html;"(se/iths/testGUI/ResponseForm.feature:23)
-
-Then the request "TEXT" has the mime type "text/plain;"(| "TEXT" | "TextMime" | "text/plain;" |)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "TEXT" has the mime type "text/plain;"(se/iths/testGUI/ResponseForm.feature:41)
-
-| "TEXT" | "TextMime" | "text/plain;" |  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "TEXT" has the mime type "text/plain;"(se/iths/testGUI/ResponseForm.feature:41)
-
-Then the request "JSON" has the mime type "application/json;"(| "JSON" | "{ /'name/':/'John/', /'age/':30 }" | "application/json;" |)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "JSON" has the mime type "application/json;"(se/iths/testGUI/ResponseForm.feature:41)
-
-| "JSON" | "{ /'name/':/'John/', /'age/':30 }" | "application/json;" |  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "JSON" has the mime type "application/json;"(se/iths/testGUI/ResponseForm.feature:41)
-
-Then the request "XML" has the mime type "application/xml;"(| "XML" | "<note><to>Test</to></note>" | "application/xml;" |)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "XML" has the mime type "application/xml;"(se/iths/testGUI/ResponseForm.feature:41)
-
-| "XML" | "<note><to>Test</to></note>" | "application/xml;" |  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "XML" has the mime type "application/xml;"(se/iths/testGUI/ResponseForm.feature:41)
-
-Then the request "HTML" has the mime type "text/html;"(| "HTML" | "<html> Det här är HTML </html>" | "text/html;" |)  Time elapsed: 0.011 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "HTML" has the mime type "text/html;"(se/iths/testGUI/ResponseForm.feature:41)
-
-| "HTML" | "<html> Det här är HTML </html>" | "text/html;" |  Time elapsed: 0.011 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)
-	at ?.Then the request "HTML" has the mime type "text/html;"(se/iths/testGUI/ResponseForm.feature:41)
 
 Then "three" is displayed(Scenario: A request with multiple states displays the selected)  Time elapsed: 0 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[thre]e> but was:<[on]e>

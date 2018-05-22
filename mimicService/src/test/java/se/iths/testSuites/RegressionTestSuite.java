@@ -12,6 +12,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java",
 		glue = {"classpath:se/iths/stepDefs"},
+				tags = {"~@MachineLearning113,~@MachineLearning118,~@MachineLearning119,"
+						+ "~@LearnNextResponse113,~@GuiLearnNextResponse111,"
+						+ "~@ViewRequests114,~@ViewRequests115,"
+						+ "~@ResponseForm112,~@ResponseForm113"},
 		plugin = { "pretty", "json:target/cucumber-reports/regressionResults.json" },
 		monochrome = true
 		)

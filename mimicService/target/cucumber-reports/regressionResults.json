@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3914813787,
+              "duration": 3893587510,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 18580226,
+              "duration": 29412295,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 32766232,
+              "duration": 125685007,
               "status": "passed"
             },
             "line": 8,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 1651019067,
+              "duration": 2218021468,
               "status": "passed"
             },
             "line": 9,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 58458544,
+              "duration": 135219084,
               "status": "passed"
             },
             "line": 10,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 684617935,
+              "duration": 929467613,
               "status": "passed"
             },
             "line": 11,
@@ -132,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2917060962,
+              "duration": 2980123012,
               "status": "passed"
             },
             "line": 19,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 9316581,
+              "duration": 6368909,
               "status": "passed"
             },
             "line": 20,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 4342642392,
+              "duration": 1253710752,
               "status": "passed"
             },
             "line": 21,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 3098121829,
+              "duration": 2111683665,
               "status": "passed"
             },
             "line": 26,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 57607440,
+              "duration": 140889547,
               "status": "passed"
             },
             "line": 27,
@@ -222,9 +222,8 @@
           },
           {
             "result": {
-              "duration": 689820580,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[\"4\"]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.every_question_respondes_with_correct_response(MimicStepDef.java:140)\r\n\tat ✽.Then every question below respondes with corresponding response(se/iths/testAPI/BrainFile.feature:28)\r\n",
-              "status": "failed"
+              "duration": 1372121577,
+              "status": "passed"
             },
             "line": 28,
             "name": "every question below respondes with corresponding response",
@@ -297,9 +296,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2578839053,
-              "error_message": "java.lang.AssertionError: Please start mimic.jar manually before running tests again. Location in repository: \\commonFiles\\runnableJars\\releaseSprint2\\mimic.jar\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat se.iths.stepDefs.MimicStepDef.that_the_mimicService_is_running(MimicStepDef.java:25)\r\n\tat ✽.Given that the mimicService is running(se/iths/testAPI/KillMimic.feature:6)\r\n",
-              "status": "failed"
+              "duration": 2989464625,
+              "status": "passed"
             },
             "line": 6,
             "name": "that the mimicService is running",
@@ -310,7 +308,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2107474933,
+              "status": "passed"
             },
             "line": 7,
             "name": "I terminate the mimicService",
@@ -321,7 +320,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1112607403,
+              "status": "passed"
             },
             "line": 8,
             "name": "\"1+1\" respondes with \"Error\"",
@@ -380,7 +380,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2532242603,
+              "duration": 2913854347,
               "status": "passed"
             },
             "line": 8,
@@ -392,7 +392,7 @@
           },
           {
             "result": {
-              "duration": 2071976471,
+              "duration": 23844425,
               "status": "passed"
             },
             "line": 9,
@@ -414,9 +414,8 @@
           },
           {
             "result": {
-              "duration": 112675935,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"1+1\" respondes with \"2\"(se/iths/testAPI/LearnNextResponse.feature:10)\r\n",
-              "status": "failed"
+              "duration": 104471861,
+              "status": "passed"
             },
             "line": 10,
             "name": "\"1+1\" respondes with \"2\"",
@@ -453,7 +452,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2856942480,
+              "duration": 2980638433,
               "status": "passed"
             },
             "line": 15,
@@ -465,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 5184587,
+              "duration": 7394829,
               "status": "passed"
             },
             "line": 16,
@@ -477,7 +476,7 @@
           },
           {
             "result": {
-              "duration": 1825242383,
+              "duration": 1681310371,
               "status": "passed"
             },
             "line": 17,
@@ -526,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 526394040,
+              "duration": 508504463,
               "status": "passed"
             },
             "line": 23,
@@ -538,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 817956302,
+              "duration": 860367411,
               "status": "passed"
             },
             "line": 24,
@@ -603,7 +602,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2630833072,
+              "duration": 3001149440,
               "status": "passed"
             },
             "line": 34,
@@ -615,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 12217472,
+              "duration": 25544168,
               "status": "passed"
             },
             "line": 35,
@@ -641,7 +640,7 @@
           },
           {
             "result": {
-              "duration": 110200186,
+              "duration": 112771551,
               "status": "passed"
             },
             "line": 36,
@@ -687,7 +686,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2908327103,
+              "duration": 3008157292,
               "status": "passed"
             },
             "line": 34,
@@ -699,7 +698,7 @@
           },
           {
             "result": {
-              "duration": 23871919,
+              "duration": 30640116,
               "status": "passed"
             },
             "line": 35,
@@ -725,7 +724,7 @@
           },
           {
             "result": {
-              "duration": 103561665,
+              "duration": 131405534,
               "status": "passed"
             },
             "line": 36,
@@ -787,7 +786,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2862694607,
+              "duration": 2986805853,
               "status": "passed"
             },
             "line": 7,
@@ -799,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 14165078,
+              "duration": 23269909,
               "status": "passed"
             },
             "line": 8,
@@ -825,7 +824,7 @@
           },
           {
             "result": {
-              "duration": 10592825,
+              "duration": 13385790,
               "status": "passed"
             },
             "line": 9,
@@ -851,7 +850,7 @@
           },
           {
             "result": {
-              "duration": 138671507,
+              "duration": 146399966,
               "status": "passed"
             },
             "line": 10,
@@ -897,7 +896,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2929658434,
+              "duration": 3042681951,
               "status": "passed"
             },
             "line": 7,
@@ -909,7 +908,7 @@
           },
           {
             "result": {
-              "duration": 18379556,
+              "duration": 22678569,
               "status": "passed"
             },
             "line": 8,
@@ -935,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 10397080,
+              "duration": 15030133,
               "status": "passed"
             },
             "line": 9,
@@ -961,7 +960,7 @@
           },
           {
             "result": {
-              "duration": 178490733,
+              "duration": 123135802,
               "status": "passed"
             },
             "line": 10,
@@ -1007,7 +1006,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2836691647,
+              "duration": 3098480079,
               "status": "passed"
             },
             "line": 7,
@@ -1019,7 +1018,7 @@
           },
           {
             "result": {
-              "duration": 34009648,
+              "duration": 25096457,
               "status": "passed"
             },
             "line": 8,
@@ -1045,7 +1044,7 @@
           },
           {
             "result": {
-              "duration": 13526956,
+              "duration": 10917837,
               "status": "passed"
             },
             "line": 9,
@@ -1071,7 +1070,7 @@
           },
           {
             "result": {
-              "duration": 136630338,
+              "duration": 127200905,
               "status": "passed"
             },
             "line": 10,
@@ -1117,7 +1116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2895085353,
+              "duration": 2960845571,
               "status": "passed"
             },
             "line": 7,
@@ -1129,7 +1128,7 @@
           },
           {
             "result": {
-              "duration": 2097585888,
+              "duration": 21529539,
               "status": "passed"
             },
             "line": 8,
@@ -1155,7 +1154,7 @@
           },
           {
             "result": {
-              "duration": 19800660,
+              "duration": 18928628,
               "status": "passed"
             },
             "line": 9,
@@ -1181,9 +1180,8 @@
           },
           {
             "result": {
-              "duration": 108321932,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"div?value1\u003d8\u0026value2\u003d4\" respondes with \"2\"(se/iths/testAPI/MachineLearning.feature:10)\r\n",
-              "status": "failed"
+              "duration": 133745452,
+              "status": "passed"
             },
             "line": 10,
             "name": "\"div?value1\u003d8\u0026value2\u003d4\" respondes with \"2\"",
@@ -1228,7 +1226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3498351963,
+              "duration": 2960493886,
               "status": "passed"
             },
             "line": 22,
@@ -1240,7 +1238,7 @@
           },
           {
             "result": {
-              "duration": 30652017,
+              "duration": 21339539,
               "status": "passed"
             },
             "line": 23,
@@ -1266,7 +1264,7 @@
           },
           {
             "result": {
-              "duration": 7295930,
+              "duration": 13802312,
               "status": "passed"
             },
             "line": 24,
@@ -1292,7 +1290,7 @@
           },
           {
             "result": {
-              "duration": 173444849,
+              "duration": 124194961,
               "status": "passed"
             },
             "line": 25,
@@ -1338,7 +1336,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2491250137,
+              "duration": 2955504224,
               "status": "passed"
             },
             "line": 22,
@@ -1350,7 +1348,7 @@
           },
           {
             "result": {
-              "duration": 23926908,
+              "duration": 22776238,
               "status": "passed"
             },
             "line": 23,
@@ -1376,7 +1374,7 @@
           },
           {
             "result": {
-              "duration": 14660802,
+              "duration": 13429698,
               "status": "passed"
             },
             "line": 24,
@@ -1402,7 +1400,7 @@
           },
           {
             "result": {
-              "duration": 123685284,
+              "duration": 135347528,
               "status": "passed"
             },
             "line": 25,
@@ -1448,7 +1446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2836264454,
+              "duration": 2916656749,
               "status": "passed"
             },
             "line": 22,
@@ -1460,7 +1458,7 @@
           },
           {
             "result": {
-              "duration": 23827189,
+              "duration": 23055287,
               "status": "passed"
             },
             "line": 23,
@@ -1486,7 +1484,7 @@
           },
           {
             "result": {
-              "duration": 8178631,
+              "duration": 9345718,
               "status": "passed"
             },
             "line": 24,
@@ -1512,7 +1510,7 @@
           },
           {
             "result": {
-              "duration": 155545014,
+              "duration": 138263192,
               "status": "passed"
             },
             "line": 25,
@@ -1558,7 +1556,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2929851307,
+              "duration": 3009504120,
               "status": "passed"
             },
             "line": 22,
@@ -1570,7 +1568,7 @@
           },
           {
             "result": {
-              "duration": 17931434,
+              "duration": 15178687,
               "status": "passed"
             },
             "line": 23,
@@ -1596,7 +1594,7 @@
           },
           {
             "result": {
-              "duration": 7672237,
+              "duration": 9286625,
               "status": "passed"
             },
             "line": 24,
@@ -1622,9 +1620,8 @@
           },
           {
             "result": {
-              "duration": 1116060649,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[Error]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"add?value1\u003d1\u0026value2\u003d1\" respondes with \"2\"(se/iths/testAPI/MachineLearning.feature:25)\r\n",
-              "status": "failed"
+              "duration": 147810400,
+              "status": "passed"
             },
             "line": 25,
             "name": "\"add?value1\u003d1\u0026value2\u003d1\" respondes with \"2\"",
@@ -1669,7 +1666,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4416873013,
+              "duration": 2924058555,
               "status": "passed"
             },
             "line": 37,
@@ -1681,7 +1678,7 @@
           },
           {
             "result": {
-              "duration": 105860956,
+              "duration": 115049502,
               "status": "passed"
             },
             "line": 38,
@@ -1699,7 +1696,7 @@
           },
           {
             "result": {
-              "duration": 121405280,
+              "duration": 118998063,
               "status": "passed"
             },
             "line": 39,
@@ -1733,7 +1730,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2777187486,
+              "duration": 2894777577,
               "status": "passed"
             },
             "line": 43,
@@ -1745,7 +1742,7 @@
           },
           {
             "result": {
-              "duration": 20867206,
+              "duration": 22113493,
               "status": "passed"
             },
             "line": 44,
@@ -1767,7 +1764,7 @@
           },
           {
             "result": {
-              "duration": 11063108,
+              "duration": 10652329,
               "status": "passed"
             },
             "line": 45,
@@ -1789,7 +1786,7 @@
           },
           {
             "result": {
-              "duration": 12463693,
+              "duration": 7395650,
               "status": "passed"
             },
             "line": 46,
@@ -1811,7 +1808,7 @@
           },
           {
             "result": {
-              "duration": 146482449,
+              "duration": 132746206,
               "status": "passed"
             },
             "line": 47,
@@ -1849,7 +1846,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2859794947,
+              "duration": 1940192577,
               "status": "passed"
             },
             "line": 51,
@@ -1861,7 +1858,7 @@
           },
           {
             "result": {
-              "duration": 23924036,
+              "duration": 26519203,
               "status": "passed"
             },
             "line": 52,
@@ -1883,7 +1880,7 @@
           },
           {
             "result": {
-              "duration": 32556124,
+              "duration": 10531681,
               "status": "passed"
             },
             "line": 53,
@@ -1905,7 +1902,7 @@
           },
           {
             "result": {
-              "duration": 135034008,
+              "duration": 163003039,
               "status": "passed"
             },
             "line": 54,
@@ -1927,7 +1924,7 @@
           },
           {
             "result": {
-              "duration": 12148119,
+              "duration": 7673468,
               "status": "passed"
             },
             "line": 55,
@@ -1939,7 +1936,7 @@
           },
           {
             "result": {
-              "duration": 98567078,
+              "duration": 110172691,
               "status": "passed"
             },
             "line": 56,
@@ -1973,7 +1970,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2840793684,
+              "duration": 2899919897,
               "status": "passed"
             },
             "line": 60,
@@ -1985,9 +1982,8 @@
           },
           {
             "result": {
-              "duration": 2538795357,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[3]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)\r\n\tat ✽.And that the mock has learned \"add?value1\u003d1\u0026value2\u003d2\" with \"3\"(se/iths/testAPI/MachineLearning.feature:61)\r\n",
-              "status": "failed"
+              "duration": 22305956,
+              "status": "passed"
             },
             "line": 61,
             "name": "that the mock has learned \"add?value1\u003d1\u0026value2\u003d2\" with \"3\"",
@@ -2008,7 +2004,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10631810,
+              "status": "passed"
             },
             "line": 62,
             "name": "that the mock has learned \"add?value1\u003d1\u0026value2\u003d1\" with \"2\"",
@@ -2029,7 +2026,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 144643181,
+              "status": "passed"
             },
             "line": 63,
             "name": "\"add?value1\u003d1\u0026value2\u003d3\" respondes with \"4\"",
@@ -2050,7 +2048,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2085866602,
+              "status": "passed"
             },
             "line": 64,
             "name": "I terminate the mimicService",
@@ -2061,7 +2060,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112695633,
+              "status": "passed"
             },
             "line": 65,
             "name": "I start mimicService",
@@ -2072,7 +2072,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 781571446,
+              "status": "passed"
             },
             "line": 66,
             "name": "\"add?value1\u003d1\u0026value2\u003d3\" respondes with \"4\"",
@@ -2109,7 +2110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3020886493,
+              "duration": 2902293054,
               "status": "passed"
             },
             "line": 70,
@@ -2121,7 +2122,7 @@
           },
           {
             "result": {
-              "duration": 18987310,
+              "duration": 32589774,
               "status": "passed"
             },
             "line": 71,
@@ -2143,7 +2144,7 @@
           },
           {
             "result": {
-              "duration": 11778378,
+              "duration": 15207412,
               "status": "passed"
             },
             "line": 72,
@@ -2165,7 +2166,7 @@
           },
           {
             "result": {
-              "duration": 146945755,
+              "duration": 201288309,
               "status": "passed"
             },
             "line": 73,
@@ -2203,7 +2204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2807472635,
+              "duration": 2955440616,
               "status": "passed"
             },
             "line": 77,
@@ -2215,7 +2216,7 @@
           },
           {
             "result": {
-              "duration": 16472166,
+              "duration": 32476102,
               "status": "passed"
             },
             "line": 78,
@@ -2241,7 +2242,7 @@
           },
           {
             "result": {
-              "duration": 16549726,
+              "duration": 10306389,
               "status": "passed"
             },
             "line": 79,
@@ -2267,7 +2268,7 @@
           },
           {
             "result": {
-              "duration": 72743039,
+              "duration": 162140856,
               "status": "passed"
             },
             "line": 80,
@@ -2308,7 +2309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2871736652,
+              "duration": 3015470868,
               "status": "passed"
             },
             "line": 88,
@@ -2320,7 +2321,7 @@
           },
           {
             "result": {
-              "duration": 20961590,
+              "duration": 23236670,
               "status": "passed"
             },
             "line": 89,
@@ -2342,7 +2343,7 @@
           },
           {
             "result": {
-              "duration": 13350088,
+              "duration": 8040338,
               "status": "passed"
             },
             "line": 90,
@@ -2364,7 +2365,7 @@
           },
           {
             "result": {
-              "duration": 222462059,
+              "duration": 182344087,
               "status": "passed"
             },
             "line": 91,
@@ -2386,7 +2387,7 @@
           },
           {
             "result": {
-              "duration": 23432415,
+              "duration": 16009681,
               "status": "passed"
             },
             "line": 92,
@@ -2408,7 +2409,7 @@
           },
           {
             "result": {
-              "duration": 2101576305,
+              "duration": 2096996600,
               "status": "passed"
             },
             "line": 93,
@@ -2458,7 +2459,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2870297081,
+              "duration": 2937266245,
               "status": "passed"
             },
             "line": 6,
@@ -2470,9 +2471,8 @@
           },
           {
             "result": {
-              "duration": 2075934059,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)\r\n\tat ✽.And that the mock has learned \"1+1\" with \"2\"(se/iths/testAPI/ResetState.feature:7)\r\n",
-              "status": "failed"
+              "duration": 26608662,
+              "status": "passed"
             },
             "line": 7,
             "name": "that the mock has learned \"1+1\" with \"2\"",
@@ -2497,7 +2497,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 505037266,
+              "status": "passed"
             },
             "line": 8,
             "name": "I call resetState",
@@ -2508,7 +2509,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111739476,
+              "status": "passed"
             },
             "line": 9,
             "name": "\"1+1\" respondes with \"2\"",
@@ -2553,7 +2555,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3485389263,
+              "duration": 2879874247,
               "status": "passed"
             },
             "line": 19,
@@ -2565,7 +2567,7 @@
           },
           {
             "result": {
-              "duration": 29325298,
+              "duration": 41463979,
               "status": "passed"
             },
             "line": 20,
@@ -2591,7 +2593,7 @@
           },
           {
             "result": {
-              "duration": 10976520,
+              "duration": 10821811,
               "status": "passed"
             },
             "line": 21,
@@ -2617,7 +2619,7 @@
           },
           {
             "result": {
-              "duration": 11845268,
+              "duration": 24913433,
               "status": "passed"
             },
             "line": 22,
@@ -2643,7 +2645,7 @@
           },
           {
             "result": {
-              "duration": 490609963,
+              "duration": 506160853,
               "status": "passed"
             },
             "line": 23,
@@ -2655,7 +2657,7 @@
           },
           {
             "result": {
-              "duration": 144351820,
+              "duration": 115731944,
               "status": "passed"
             },
             "line": 24,
@@ -2701,7 +2703,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2808439051,
+              "duration": 2904256254,
               "status": "passed"
             },
             "line": 33,
@@ -2713,7 +2715,7 @@
           },
           {
             "result": {
-              "duration": 28910006,
+              "duration": 34983450,
               "status": "passed"
             },
             "line": 34,
@@ -2739,7 +2741,7 @@
           },
           {
             "result": {
-              "duration": 25073476,
+              "duration": 34214831,
               "status": "passed"
             },
             "line": 35,
@@ -2765,7 +2767,7 @@
           },
           {
             "result": {
-              "duration": 21376062,
+              "duration": 27241860,
               "status": "passed"
             },
             "line": 36,
@@ -2791,7 +2793,7 @@
           },
           {
             "result": {
-              "duration": 524650387,
+              "duration": 503907934,
               "status": "passed"
             },
             "line": 37,
@@ -2803,7 +2805,7 @@
           },
           {
             "result": {
-              "duration": 103060606,
+              "duration": 113631682,
               "status": "passed"
             },
             "line": 38,
@@ -2865,7 +2867,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2838404523,
+              "duration": 2939745277,
               "status": "passed"
             },
             "line": 6,
@@ -2877,7 +2879,7 @@
           },
           {
             "result": {
-              "duration": 26708382,
+              "duration": 63487602,
               "status": "passed"
             },
             "line": 7,
@@ -2903,7 +2905,7 @@
           },
           {
             "result": {
-              "duration": 16196399,
+              "duration": 21761397,
               "status": "passed"
             },
             "line": 8,
@@ -2929,7 +2931,7 @@
           },
           {
             "result": {
-              "duration": 5980701,
+              "duration": 8988288,
               "status": "passed"
             },
             "line": 9,
@@ -2941,7 +2943,7 @@
           },
           {
             "result": {
-              "duration": 3773743,
+              "duration": 7435866,
               "status": "passed"
             },
             "line": 10,
@@ -2962,7 +2964,7 @@
           },
           {
             "result": {
-              "duration": 6593791,
+              "duration": 5910118,
               "status": "passed"
             },
             "line": 11,
@@ -3003,7 +3005,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3044591393,
+              "duration": 2912953590,
               "status": "passed"
             },
             "line": 19,
@@ -3015,9 +3017,8 @@
           },
           {
             "result": {
-              "duration": 2696675364,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)\r\n\tat ✽.And that the mock has learned \"1+1\" with \"2\"(se/iths/testAPI/UnlearnAllResponses.feature:20)\r\n",
-              "status": "failed"
+              "duration": 33666169,
+              "status": "passed"
             },
             "line": 20,
             "name": "that the mock has learned \"1+1\" with \"2\"",
@@ -3042,7 +3043,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4257976,
+              "status": "passed"
             },
             "line": 21,
             "name": "I write unlearnAllResponses in url",
@@ -3053,7 +3055,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3067499,
+              "status": "passed"
             },
             "line": 22,
             "name": "the mock unlearns \"1+1\"",
@@ -3093,7 +3096,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3546928027,
+              "duration": 2943059818,
               "status": "passed"
             },
             "line": 30,
@@ -3105,7 +3108,7 @@
           },
           {
             "result": {
-              "duration": 5896576,
+              "duration": 16103246,
               "status": "passed"
             },
             "line": 31,
@@ -3117,7 +3120,7 @@
           },
           {
             "result": {
-              "duration": 12048811,
+              "duration": 4806639,
               "status": "passed"
             },
             "line": 32,
@@ -3129,7 +3132,7 @@
           },
           {
             "result": {
-              "duration": 6797744,
+              "duration": 5209621,
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[Nothing to unlearn]\u003e but was:\u003c[All responses unlearned]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.the_mock_shows_error_message(MimicStepDef.java:61)\r\n\tat ✽.Then the mock shows error message(se/iths/testAPI/UnlearnAllResponses.feature:33)\r\n",
               "status": "failed"
             },
@@ -3174,7 +3177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2744218532,
+              "duration": 3037985701,
               "status": "passed"
             },
             "line": 6,
@@ -3186,7 +3189,7 @@
           },
           {
             "result": {
-              "duration": 16033893,
+              "duration": 6657809,
               "status": "passed"
             },
             "line": 7,
@@ -3198,7 +3201,7 @@
           },
           {
             "result": {
-              "duration": 1684137395,
+              "duration": 1673627873,
               "status": "passed"
             },
             "line": 8,
@@ -3247,7 +3250,7 @@
           },
           {
             "result": {
-              "duration": 500883112,
+              "duration": 497928053,
               "status": "passed"
             },
             "line": 14,
@@ -3259,7 +3262,7 @@
           },
           {
             "result": {
-              "duration": 115511577,
+              "duration": 114351056,
               "status": "passed"
             },
             "line": 15,
@@ -3277,7 +3280,7 @@
           },
           {
             "result": {
-              "duration": 119463009,
+              "duration": 109170162,
               "status": "passed"
             },
             "line": 16,
@@ -3295,7 +3298,7 @@
           },
           {
             "result": {
-              "duration": 114391683,
+              "duration": 108200463,
               "status": "passed"
             },
             "line": 17,
@@ -3313,7 +3316,7 @@
           },
           {
             "result": {
-              "duration": 99318051,
+              "duration": 111220360,
               "status": "passed"
             },
             "line": 18,
@@ -3325,7 +3328,7 @@
           },
           {
             "result": {
-              "duration": 111617186,
+              "duration": 110279797,
               "status": "passed"
             },
             "line": 19,
@@ -3343,7 +3346,7 @@
           },
           {
             "result": {
-              "duration": 98989757,
+              "duration": 120871392,
               "status": "passed"
             },
             "line": 20,
@@ -3381,7 +3384,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3521469215,
+              "duration": 2974477581,
               "status": "passed"
             },
             "line": 24,
@@ -3393,7 +3396,7 @@
           },
           {
             "result": {
-              "duration": 1048209606,
+              "duration": 24842850,
               "status": "passed"
             },
             "line": 25,
@@ -3415,7 +3418,7 @@
           },
           {
             "result": {
-              "duration": 102137689,
+              "duration": 103808296,
               "status": "passed"
             },
             "line": 26,
@@ -3427,7 +3430,7 @@
           },
           {
             "result": {
-              "duration": 111806365,
+              "duration": 106762944,
               "status": "passed"
             },
             "line": 27,
@@ -3461,7 +3464,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2852899536,
+              "duration": 2936084385,
               "status": "passed"
             },
             "line": 31,
@@ -3473,7 +3476,7 @@
           },
           {
             "result": {
-              "duration": 34183233,
+              "duration": 24810430,
               "status": "passed"
             },
             "line": 32,
@@ -3495,7 +3498,7 @@
           },
           {
             "result": {
-              "duration": 7408781,
+              "duration": 10183689,
               "status": "passed"
             },
             "line": 33,
@@ -3517,7 +3520,7 @@
           },
           {
             "result": {
-              "duration": 11528464,
+              "duration": 7392777,
               "status": "passed"
             },
             "line": 34,
@@ -3539,7 +3542,7 @@
           },
           {
             "result": {
-              "duration": 102738877,
+              "duration": 97689711,
               "status": "passed"
             },
             "line": 35,
@@ -3557,7 +3560,7 @@
           },
           {
             "result": {
-              "duration": 108651047,
+              "duration": 103581362,
               "status": "passed"
             },
             "line": 36,
@@ -3569,7 +3572,7 @@
           },
           {
             "result": {
-              "duration": 113911963,
+              "duration": 109150465,
               "status": "passed"
             },
             "line": 37,
@@ -3587,7 +3590,7 @@
           },
           {
             "result": {
-              "duration": 110575262,
+              "duration": 107279187,
               "status": "passed"
             },
             "line": 38,
@@ -3609,7 +3612,7 @@
           },
           {
             "result": {
-              "duration": 146875172,
+              "duration": 110437378,
               "status": "passed"
             },
             "line": 39,
@@ -3647,7 +3650,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2808258078,
+              "duration": 3036111551,
               "status": "passed"
             },
             "line": 44,
@@ -3659,7 +3662,7 @@
           },
           {
             "result": {
-              "duration": 26640261,
+              "duration": 30249447,
               "status": "passed"
             },
             "line": 45,
@@ -3681,7 +3684,7 @@
           },
           {
             "result": {
-              "duration": 119711282,
+              "duration": 128141879,
               "status": "passed"
             },
             "line": 46,
@@ -3693,7 +3696,7 @@
           },
           {
             "result": {
-              "duration": 94681304,
+              "duration": 103753717,
               "status": "passed"
             },
             "line": 47,
@@ -3743,7 +3746,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2853437939,
+              "duration": 2972496325,
               "status": "passed"
             },
             "line": 6,
@@ -3755,7 +3758,7 @@
           },
           {
             "result": {
-              "duration": 8621532494,
+              "duration": 6015952640,
               "status": "passed"
             },
             "line": 7,
@@ -3773,7 +3776,7 @@
           },
           {
             "result": {
-              "duration": 3286998972,
+              "duration": 2565516050,
               "status": "passed"
             },
             "line": 8,
@@ -3791,7 +3794,7 @@
           },
           {
             "result": {
-              "duration": 258857995,
+              "duration": 207957607,
               "status": "passed"
             },
             "line": 9,
@@ -3809,7 +3812,7 @@
           },
           {
             "result": {
-              "duration": 316396495,
+              "duration": 204506003,
               "status": "passed"
             },
             "line": 10,
@@ -3821,7 +3824,7 @@
           },
           {
             "result": {
-              "duration": 2358422267,
+              "duration": 2265928223,
               "status": "passed"
             },
             "line": 11,
@@ -3839,7 +3842,7 @@
           },
           {
             "result": {
-              "duration": 569696467,
+              "duration": 268854557,
               "status": "passed"
             },
             "line": 12,
@@ -3851,7 +3854,7 @@
           },
           {
             "result": {
-              "duration": 270918297,
+              "duration": 196731994,
               "status": "passed"
             },
             "line": 13,
@@ -3863,7 +3866,7 @@
           },
           {
             "result": {
-              "duration": 262930076,
+              "duration": 220081105,
               "status": "passed"
             },
             "line": 14,
@@ -3881,9 +3884,8 @@
           },
           {
             "result": {
-              "duration": 141710692,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[This XML file does not appear to have any style information associated with it. The document tree is shown below.\n\u003cnote\u003e\n\u003cto\u003eTest\u003c/to\u003e\n\u003c/note\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.SeleniumStepDef.is_displayed(SeleniumStepDef.java:151)\r\n\tat ✽.Then \"2\" is displayed(se/iths/testGUI/AddResponse.feature:15)\r\n",
-              "status": "failed"
+              "duration": 93673030,
+              "status": "passed"
             },
             "line": 15,
             "name": "\"2\" is displayed",
@@ -3900,7 +3902,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 880318675,
+              "status": "passed"
             },
             "line": 16,
             "name": "the browser is closed",
@@ -3927,7 +3930,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2892516450,
+              "duration": 2958540945,
               "status": "passed"
             },
             "line": 20,
@@ -3939,7 +3942,7 @@
           },
           {
             "result": {
-              "duration": 5609121328,
+              "duration": 4364934394,
               "status": "passed"
             },
             "line": 21,
@@ -3957,7 +3960,7 @@
           },
           {
             "result": {
-              "duration": 3362452490,
+              "duration": 2515152423,
               "status": "passed"
             },
             "line": 22,
@@ -3975,7 +3978,7 @@
           },
           {
             "result": {
-              "duration": 7252330274,
+              "duration": 5181513502,
               "status": "passed"
             },
             "line": 23,
@@ -4013,7 +4016,7 @@
           },
           {
             "result": {
-              "duration": 196164456,
+              "duration": 216058679,
               "status": "passed"
             },
             "line": 27,
@@ -4025,7 +4028,7 @@
           },
           {
             "result": {
-              "duration": 436199698,
+              "duration": 379589862,
               "status": "passed"
             },
             "line": 28,
@@ -4047,7 +4050,7 @@
           },
           {
             "result": {
-              "duration": 232825489,
+              "duration": 203457103,
               "status": "passed"
             },
             "line": 29,
@@ -4059,7 +4062,7 @@
           },
           {
             "result": {
-              "duration": 2481414029,
+              "duration": 2463093566,
               "status": "passed"
             },
             "line": 30,
@@ -4077,7 +4080,7 @@
           },
           {
             "result": {
-              "duration": 214976540,
+              "duration": 197041001,
               "status": "passed"
             },
             "line": 31,
@@ -4089,7 +4092,7 @@
           },
           {
             "result": {
-              "duration": 2332837061,
+              "duration": 2299671952,
               "status": "passed"
             },
             "line": 32,
@@ -4107,7 +4110,7 @@
           },
           {
             "result": {
-              "duration": 217864709,
+              "duration": 183541540,
               "status": "passed"
             },
             "line": 33,
@@ -4125,7 +4128,7 @@
           },
           {
             "result": {
-              "duration": 64212722,
+              "duration": 73957727,
               "status": "passed"
             },
             "line": 34,
@@ -4143,7 +4146,7 @@
           },
           {
             "result": {
-              "duration": 1066541149,
+              "duration": 821793652,
               "status": "passed"
             },
             "line": 35,
@@ -4171,7 +4174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2636353340,
+              "duration": 2893354831,
               "status": "passed"
             },
             "line": 40,
@@ -4183,7 +4186,7 @@
           },
           {
             "result": {
-              "duration": 4623906062,
+              "duration": 4008526214,
               "status": "passed"
             },
             "line": 41,
@@ -4201,7 +4204,7 @@
           },
           {
             "result": {
-              "duration": 2713717120,
+              "duration": 2581252837,
               "status": "passed"
             },
             "line": 42,
@@ -4219,9 +4222,8 @@
           },
           {
             "result": {
-              "duration": 18317280427,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/form/textarea\"}\n  (Session info: chrome\u003d66.0.3359.139)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-1A0S11AO\u0027, ip: \u0027192.168.1.95\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\LARSS_~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}\nSession ID: 6925e87f79ea0d109ab7cbee159e0074\n*** Element info: {Using\u003dxpath, value\u003d/html/body/form/textarea}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)\r\n\tat se.iths.stepDefs.SeleniumStepDef.i_add_the_states_bellow_to_the_request(SeleniumStepDef.java:117)\r\n\tat ✽.And I add the states below to the request \"numbers\"(se/iths/testGUI/AddResponse.feature:43)\r\n",
-              "status": "failed"
+              "duration": 5413560114,
+              "status": "passed"
             },
             "line": 43,
             "name": "I add the states below to the request \"numbers\"",
@@ -4258,7 +4260,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 214669584,
+              "status": "passed"
             },
             "line": 47,
             "name": "I make a /resetState request",
@@ -4269,7 +4272,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 171853443,
+              "status": "passed"
             },
             "line": 48,
             "name": "I make an /addResponse request",
@@ -4280,7 +4284,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2429570206,
+              "status": "passed"
             },
             "line": 49,
             "name": "I input \"4\" in the response form and press the Learn button",
@@ -4297,7 +4302,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 764747595,
+              "status": "passed"
             },
             "line": 50,
             "name": "I enter the request \"numbers\" \"4\" times",
@@ -4318,7 +4324,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 63082569,
+              "status": "passed"
             },
             "line": 51,
             "name": "\"4\" is displayed",
@@ -4335,7 +4342,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 843113084,
+              "status": "passed"
             },
             "line": 52,
             "name": "the browser is closed",
@@ -4384,7 +4392,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3100994403,
+              "duration": 2944039365,
               "status": "passed"
             },
             "line": 8,
@@ -4396,7 +4404,7 @@
           },
           {
             "result": {
-              "duration": 6340572086,
+              "duration": 3944284355,
               "status": "passed"
             },
             "line": 9,
@@ -4414,8 +4422,8 @@
           },
           {
             "result": {
-              "duration": 15065478296,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/form/textarea\"}\n  (Session info: chrome\u003d66.0.3359.139)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-1A0S11AO\u0027, ip: \u0027192.168.1.95\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\LARSS_~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}\nSession ID: 19185fc5ee4264cb747ecfdd5c32eeba\n*** Element info: {Using\u003dxpath, value\u003d/html/body/form/textarea}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)\r\n\tat se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)\r\n\tat ✽.And I input \"4\" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)\r\n",
+              "duration": 30118103050,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/form/textarea\"}\n  (Session info: chrome\u003d66.0.3359.139)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-1A0S11AO\u0027, ip: \u0027192.168.1.95\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\LARSS_~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}\nSession ID: f436efb04158326c2281d57f05b7d178\n*** Element info: {Using\u003dxpath, value\u003d/html/body/form/textarea}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)\r\n\tat se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)\r\n\tat ✽.And I input \"4\" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)\r\n",
               "status": "failed"
             },
             "line": 10,
@@ -4487,7 +4495,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2840581524,
+              "duration": 2961305594,
               "status": "passed"
             },
             "line": 16,
@@ -4499,7 +4507,7 @@
           },
           {
             "result": {
-              "duration": 4175746192,
+              "duration": 4077790973,
               "status": "passed"
             },
             "line": 17,
@@ -4517,7 +4525,7 @@
           },
           {
             "result": {
-              "duration": 609507485,
+              "duration": 416044481,
               "status": "passed"
             },
             "line": 18,
@@ -4539,7 +4547,7 @@
           },
           {
             "result": {
-              "duration": 101002611,
+              "duration": 79664303,
               "status": "passed"
             },
             "line": 19,
@@ -4557,7 +4565,7 @@
           },
           {
             "result": {
-              "duration": 820056155,
+              "duration": 854180705,
               "status": "passed"
             },
             "line": 20,
@@ -4585,7 +4593,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2876789102,
+              "duration": 2939207694,
               "status": "passed"
             },
             "line": 24,
@@ -4597,7 +4605,7 @@
           },
           {
             "result": {
-              "duration": 6797923374,
+              "duration": 7319219825,
               "status": "passed"
             },
             "line": 25,
@@ -4615,7 +4623,7 @@
           },
           {
             "result": {
-              "duration": 459690386,
+              "duration": 452564758,
               "status": "passed"
             },
             "line": 26,
@@ -4637,7 +4645,7 @@
           },
           {
             "result": {
-              "duration": 171823897,
+              "duration": 56954545,
               "status": "passed"
             },
             "line": 27,
@@ -4655,7 +4663,7 @@
           },
           {
             "result": {
-              "duration": 1568822794,
+              "duration": 1457123945,
               "status": "passed"
             },
             "line": 28,
@@ -4683,7 +4691,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2968148478,
+              "duration": 3030356142,
               "status": "passed"
             },
             "line": 32,
@@ -4695,7 +4703,7 @@
           },
           {
             "result": {
-              "duration": 2844898594,
+              "duration": 3112547490,
               "status": "passed"
             },
             "line": 33,
@@ -4713,7 +4721,7 @@
           },
           {
             "result": {
-              "duration": 600576239,
+              "duration": 422802008,
               "status": "passed"
             },
             "line": 34,
@@ -4735,7 +4743,7 @@
           },
           {
             "result": {
-              "duration": 91821041,
+              "duration": 28132768,
               "status": "passed"
             },
             "line": 35,
@@ -4753,7 +4761,7 @@
           },
           {
             "result": {
-              "duration": 2891625952,
+              "duration": 2913256031,
               "status": "passed"
             },
             "line": 36,
@@ -4797,7 +4805,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2897193823,
+              "duration": 2882290493,
               "status": "passed"
             },
             "line": 7,
@@ -4809,7 +4817,7 @@
           },
           {
             "result": {
-              "duration": 6185365626,
+              "duration": 4868989239,
               "status": "passed"
             },
             "line": 8,
@@ -4821,7 +4829,7 @@
           },
           {
             "result": {
-              "duration": 8322620544,
+              "duration": 8985939976,
               "status": "passed"
             },
             "line": 9,
@@ -4865,7 +4873,7 @@
           },
           {
             "result": {
-              "duration": 216504749,
+              "duration": 218636611,
               "status": "passed"
             },
             "line": 14,
@@ -4877,7 +4885,7 @@
           },
           {
             "result": {
-              "duration": 803869195,
+              "duration": 758443524,
               "status": "passed"
             },
             "line": 15,
@@ -4899,7 +4907,7 @@
           },
           {
             "result": {
-              "duration": 188959627,
+              "duration": 200430640,
               "status": "passed"
             },
             "line": 16,
@@ -4911,7 +4919,7 @@
           },
           {
             "result": {
-              "duration": 202871509,
+              "duration": 202291658,
               "status": "passed"
             },
             "line": 17,
@@ -4929,7 +4937,7 @@
           },
           {
             "result": {
-              "duration": 76103951,
+              "duration": 85691376,
               "status": "passed"
             },
             "line": 18,
@@ -4947,7 +4955,7 @@
           },
           {
             "result": {
-              "duration": 862379034,
+              "duration": 900625318,
               "status": "passed"
             },
             "line": 19,
@@ -4997,7 +5005,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2866101481,
+              "duration": 2844683561,
               "status": "passed"
             },
             "line": 7,
@@ -5009,7 +5017,7 @@
           },
           {
             "result": {
-              "duration": 4394216193,
+              "duration": 4098578567,
               "status": "passed"
             },
             "line": 8,
@@ -5030,7 +5038,7 @@
           },
           {
             "result": {
-              "duration": 2583505346,
+              "duration": 2562390277,
               "status": "passed"
             },
             "line": 9,
@@ -5051,7 +5059,7 @@
           },
           {
             "result": {
-              "duration": 211776080,
+              "duration": 240821917,
               "status": "passed"
             },
             "line": 10,
@@ -5072,7 +5080,7 @@
           },
           {
             "result": {
-              "duration": 232576807,
+              "duration": 207704411,
               "status": "passed"
             },
             "line": 11,
@@ -5084,7 +5092,7 @@
           },
           {
             "result": {
-              "duration": 2456197745,
+              "duration": 2417535757,
               "status": "passed"
             },
             "line": 12,
@@ -5105,7 +5113,7 @@
           },
           {
             "result": {
-              "duration": 230735075,
+              "duration": 178800971,
               "status": "passed"
             },
             "line": 13,
@@ -5126,7 +5134,7 @@
           },
           {
             "result": {
-              "duration": 57753532,
+              "duration": 92697586,
               "status": "passed"
             },
             "line": 14,
@@ -5144,7 +5152,7 @@
           },
           {
             "result": {
-              "duration": 808715638,
+              "duration": 851347936,
               "status": "passed"
             },
             "line": 15,
@@ -5176,7 +5184,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2866239364,
+              "duration": 2900211258,
               "status": "passed"
             },
             "line": 23,
@@ -5188,7 +5196,7 @@
           },
           {
             "result": {
-              "duration": 1256672786,
+              "duration": 1262664978,
               "status": "passed"
             },
             "line": 24,
@@ -5230,7 +5238,7 @@
           },
           {
             "result": {
-              "duration": 509701506,
+              "duration": 510101205,
               "status": "passed"
             },
             "line": 29,
@@ -5242,7 +5250,7 @@
           },
           {
             "result": {
-              "duration": 4174070250,
+              "duration": 4046293188,
               "status": "passed"
             },
             "line": 30,
@@ -5260,7 +5268,7 @@
           },
           {
             "result": {
-              "duration": 257369591,
+              "duration": 213070380,
               "status": "passed"
             },
             "line": 31,
@@ -5278,7 +5286,7 @@
           },
           {
             "result": {
-              "duration": 377765367,
+              "duration": 292892675,
               "status": "passed"
             },
             "line": 32,
@@ -5290,7 +5298,7 @@
           },
           {
             "result": {
-              "duration": 2308032787,
+              "duration": 2301198930,
               "status": "passed"
             },
             "line": 33,
@@ -5308,7 +5316,7 @@
           },
           {
             "result": {
-              "duration": 280300538,
+              "duration": 317344034,
               "status": "passed"
             },
             "line": 34,
@@ -5320,7 +5328,7 @@
           },
           {
             "result": {
-              "duration": 208775881,
+              "duration": 180299634,
               "status": "passed"
             },
             "line": 35,
@@ -5332,7 +5340,7 @@
           },
           {
             "result": {
-              "duration": 411241125,
+              "duration": 390236035,
               "status": "passed"
             },
             "line": 36,
@@ -5354,7 +5362,7 @@
           },
           {
             "result": {
-              "duration": 81932406,
+              "duration": 71306341,
               "status": "passed"
             },
             "line": 37,
@@ -5372,7 +5380,7 @@
           },
           {
             "result": {
-              "duration": 845594168,
+              "duration": 845865010,
               "status": "passed"
             },
             "line": 38,
@@ -5416,7 +5424,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2845044685,
+              "duration": 2922867667,
               "status": "passed"
             },
             "line": 8,
@@ -5428,7 +5436,7 @@
           },
           {
             "result": {
-              "duration": 4269857496,
+              "duration": 4034516040,
               "status": "passed"
             },
             "line": 9,
@@ -5446,7 +5454,7 @@
           },
           {
             "result": {
-              "duration": 2656268082,
+              "duration": 2504710203,
               "status": "passed"
             },
             "line": 10,
@@ -5464,7 +5472,7 @@
           },
           {
             "result": {
-              "duration": 229270473,
+              "duration": 197603206,
               "status": "passed"
             },
             "line": 11,
@@ -5482,7 +5490,7 @@
           },
           {
             "result": {
-              "duration": 99288094,
+              "duration": 91459507,
               "status": "passed"
             },
             "line": 12,
@@ -5500,7 +5508,7 @@
           },
           {
             "result": {
-              "duration": 817775330,
+              "duration": 836772080,
               "status": "passed"
             },
             "line": 13,
@@ -5528,7 +5536,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2877963163,
+              "duration": 2880726991,
               "status": "passed"
             },
             "line": 18,
@@ -5540,7 +5548,7 @@
           },
           {
             "result": {
-              "duration": 4273097760,
+              "duration": 4041326096,
               "status": "passed"
             },
             "line": 19,
@@ -5561,7 +5569,7 @@
           },
           {
             "result": {
-              "duration": 2473235808,
+              "duration": 2393749195,
               "status": "passed"
             },
             "line": 20,
@@ -5582,7 +5590,7 @@
           },
           {
             "result": {
-              "duration": 355774984,
+              "duration": 340367312,
               "status": "passed"
             },
             "line": 21,
@@ -5594,7 +5602,7 @@
           },
           {
             "result": {
-              "duration": 942250982,
+              "duration": 857179674,
               "status": "passed"
             },
             "line": 22,
@@ -5606,7 +5614,7 @@
           },
           {
             "result": {
-              "duration": 4622794,
+              "duration": 6422257,
               "status": "passed"
             },
             "line": 23,
@@ -5652,7 +5660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2872256178,
+              "duration": 2895489154,
               "status": "passed"
             },
             "line": 18,
@@ -5664,7 +5672,7 @@
           },
           {
             "result": {
-              "duration": 4289734894,
+              "duration": 4304434271,
               "status": "passed"
             },
             "line": 19,
@@ -5685,7 +5693,7 @@
           },
           {
             "result": {
-              "duration": 2645599338,
+              "duration": 2523544035,
               "status": "passed"
             },
             "line": 20,
@@ -5706,7 +5714,7 @@
           },
           {
             "result": {
-              "duration": 305533646,
+              "duration": 370441531,
               "status": "passed"
             },
             "line": 21,
@@ -5718,7 +5726,7 @@
           },
           {
             "result": {
-              "duration": 857968400,
+              "duration": 891360853,
               "status": "passed"
             },
             "line": 22,
@@ -5730,7 +5738,7 @@
           },
           {
             "result": {
-              "duration": 8172887,
+              "duration": 7240941,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"JSON\" has the mime type \"application/json;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
@@ -5777,7 +5785,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2870951618,
+              "duration": 2885179483,
               "status": "passed"
             },
             "line": 18,
@@ -5789,7 +5797,7 @@
           },
           {
             "result": {
-              "duration": 4344132027,
+              "duration": 4093751821,
               "status": "passed"
             },
             "line": 19,
@@ -5810,7 +5818,7 @@
           },
           {
             "result": {
-              "duration": 2582997721,
+              "duration": 2545187247,
               "status": "passed"
             },
             "line": 20,
@@ -5831,7 +5839,7 @@
           },
           {
             "result": {
-              "duration": 336445837,
+              "duration": 349157392,
               "status": "passed"
             },
             "line": 21,
@@ -5843,7 +5851,7 @@
           },
           {
             "result": {
-              "duration": 910522981,
+              "duration": 861017434,
               "status": "passed"
             },
             "line": 22,
@@ -5855,7 +5863,7 @@
           },
           {
             "result": {
-              "duration": 4949447,
+              "duration": 6714439,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"XML\" has the mime type \"application/xml;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
@@ -5902,7 +5910,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2819061834,
+              "duration": 2861126180,
               "status": "passed"
             },
             "line": 18,
@@ -5914,7 +5922,7 @@
           },
           {
             "result": {
-              "duration": 4166677062,
+              "duration": 3963012723,
               "status": "passed"
             },
             "line": 19,
@@ -5935,7 +5943,7 @@
           },
           {
             "result": {
-              "duration": 2586287229,
+              "duration": 2548833365,
               "status": "passed"
             },
             "line": 20,
@@ -5956,7 +5964,7 @@
           },
           {
             "result": {
-              "duration": 339892926,
+              "duration": 367421224,
               "status": "passed"
             },
             "line": 21,
@@ -5968,7 +5976,7 @@
           },
           {
             "result": {
-              "duration": 937851429,
+              "duration": 922547170,
               "status": "passed"
             },
             "line": 22,
@@ -5980,7 +5988,7 @@
           },
           {
             "result": {
-              "duration": 6827290,
+              "duration": 4868194,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"HTML\" has the mime type \"text/html;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
@@ -6027,7 +6035,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2896738314,
+              "duration": 2902738302,
               "status": "passed"
             },
             "line": 35,
@@ -6039,7 +6047,7 @@
           },
           {
             "result": {
-              "duration": 4135450531,
+              "duration": 4178787018,
               "status": "passed"
             },
             "line": 36,
@@ -6060,7 +6068,7 @@
           },
           {
             "result": {
-              "duration": 401374240,
+              "duration": 381522284,
               "status": "passed"
             },
             "line": 37,
@@ -6081,7 +6089,7 @@
           },
           {
             "result": {
-              "duration": 2382315525,
+              "duration": 2368143471,
               "status": "passed"
             },
             "line": 38,
@@ -6102,7 +6110,7 @@
           },
           {
             "result": {
-              "duration": 314243294,
+              "duration": 332838703,
               "status": "passed"
             },
             "line": 39,
@@ -6114,7 +6122,7 @@
           },
           {
             "result": {
-              "duration": 827418565,
+              "duration": 891980099,
               "status": "passed"
             },
             "line": 40,
@@ -6126,7 +6134,7 @@
           },
           {
             "result": {
-              "duration": 4598172,
+              "duration": 6039794,
               "status": "passed"
             },
             "line": 41,
@@ -6172,7 +6180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2882099672,
+              "duration": 2933823258,
               "status": "passed"
             },
             "line": 35,
@@ -6184,7 +6192,7 @@
           },
           {
             "result": {
-              "duration": 4254998486,
+              "duration": 4115924407,
               "status": "passed"
             },
             "line": 36,
@@ -6205,7 +6213,7 @@
           },
           {
             "result": {
-              "duration": 453465106,
+              "duration": 360431838,
               "status": "passed"
             },
             "line": 37,
@@ -6226,7 +6234,7 @@
           },
           {
             "result": {
-              "duration": 2565180369,
+              "duration": 2507022215,
               "status": "passed"
             },
             "line": 38,
@@ -6247,7 +6255,7 @@
           },
           {
             "result": {
-              "duration": 315772325,
+              "duration": 344542395,
               "status": "passed"
             },
             "line": 39,
@@ -6259,7 +6267,7 @@
           },
           {
             "result": {
-              "duration": 831482028,
+              "duration": 843334272,
               "status": "passed"
             },
             "line": 40,
@@ -6271,7 +6279,7 @@
           },
           {
             "result": {
-              "duration": 4862859,
+              "duration": 6579018,
               "status": "passed"
             },
             "line": 41,
@@ -6317,7 +6325,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2886524669,
+              "duration": 2870772288,
               "status": "passed"
             },
             "line": 35,
@@ -6329,7 +6337,7 @@
           },
           {
             "result": {
-              "duration": 4342404378,
+              "duration": 4254955397,
               "status": "passed"
             },
             "line": 36,
@@ -6350,7 +6358,7 @@
           },
           {
             "result": {
-              "duration": 476194970,
+              "duration": 385869311,
               "status": "passed"
             },
             "line": 37,
@@ -6371,7 +6379,7 @@
           },
           {
             "result": {
-              "duration": 2479566553,
+              "duration": 2464110458,
               "status": "passed"
             },
             "line": 38,
@@ -6392,7 +6400,7 @@
           },
           {
             "result": {
-              "duration": 302523598,
+              "duration": 353261481,
               "status": "passed"
             },
             "line": 39,
@@ -6404,7 +6412,7 @@
           },
           {
             "result": {
-              "duration": 815834290,
+              "duration": 871158034,
               "status": "passed"
             },
             "line": 40,
@@ -6416,7 +6424,7 @@
           },
           {
             "result": {
-              "duration": 7443253,
+              "duration": 4438949,
               "status": "passed"
             },
             "line": 41,
@@ -6462,7 +6470,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2835011601,
+              "duration": 2900633116,
               "status": "passed"
             },
             "line": 35,
@@ -6474,7 +6482,7 @@
           },
           {
             "result": {
-              "duration": 4102557494,
+              "duration": 4235289749,
               "status": "passed"
             },
             "line": 36,
@@ -6495,7 +6503,7 @@
           },
           {
             "result": {
-              "duration": 479785279,
+              "duration": 393878460,
               "status": "passed"
             },
             "line": 37,
@@ -6516,7 +6524,7 @@
           },
           {
             "result": {
-              "duration": 2481833425,
+              "duration": 2619137176,
               "status": "passed"
             },
             "line": 38,
@@ -6537,7 +6545,7 @@
           },
           {
             "result": {
-              "duration": 313085236,
+              "duration": 356770537,
               "status": "passed"
             },
             "line": 39,
@@ -6549,7 +6557,7 @@
           },
           {
             "result": {
-              "duration": 892053965,
+              "duration": 902429707,
               "status": "passed"
             },
             "line": 40,
@@ -6561,7 +6569,7 @@
           },
           {
             "result": {
-              "duration": 9340793,
+              "duration": 10546044,
               "status": "passed"
             },
             "line": 41,
@@ -6623,7 +6631,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2881660989,
+              "duration": 2923488964,
               "status": "passed"
             },
             "line": 5,
@@ -6635,7 +6643,7 @@
           },
           {
             "result": {
-              "duration": 4214217769,
+              "duration": 4176323170,
               "status": "passed"
             },
             "line": 6,
@@ -6653,7 +6661,7 @@
           },
           {
             "result": {
-              "duration": 2665432417,
+              "duration": 2581850332,
               "status": "passed"
             },
             "line": 7,
@@ -6671,7 +6679,7 @@
           },
           {
             "result": {
-              "duration": 216398053,
+              "duration": 233825966,
               "status": "passed"
             },
             "line": 8,
@@ -6683,7 +6691,7 @@
           },
           {
             "result": {
-              "duration": 84084785,
+              "duration": 65751601,
               "status": "passed"
             },
             "line": 9,
@@ -6701,7 +6709,7 @@
           },
           {
             "result": {
-              "duration": 811244736,
+              "duration": 849786485,
               "status": "passed"
             },
             "line": 10,
@@ -6729,7 +6737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2826047936,
+              "duration": 2907876519,
               "status": "passed"
             },
             "line": 15,
@@ -6741,7 +6749,7 @@
           },
           {
             "result": {
-              "duration": 6139102394,
+              "duration": 5675400253,
               "status": "passed"
             },
             "line": 16,
@@ -6753,7 +6761,7 @@
           },
           {
             "result": {
-              "duration": 5647569103,
+              "duration": 5622011804,
               "status": "passed"
             },
             "line": 17,
@@ -6788,7 +6796,7 @@
           },
           {
             "result": {
-              "duration": 212615693,
+              "duration": 200782326,
               "status": "passed"
             },
             "line": 21,
@@ -6800,7 +6808,7 @@
           },
           {
             "result": {
-              "duration": 139514404,
+              "duration": 90953113,
               "status": "passed"
             },
             "line": 22,
@@ -6832,7 +6840,7 @@
           },
           {
             "result": {
-              "duration": 909208163,
+              "duration": 885696136,
               "status": "passed"
             },
             "line": 26,
@@ -6860,7 +6868,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2866891439,
+              "duration": 2880338783,
               "status": "passed"
             },
             "line": 30,
@@ -6872,7 +6880,7 @@
           },
           {
             "result": {
-              "duration": 9373212,
+              "duration": 3267760,
               "status": "passed"
             },
             "line": 31,
@@ -6884,7 +6892,7 @@
           },
           {
             "result": {
-              "duration": 6251145542,
+              "duration": 4593548689,
               "status": "passed"
             },
             "line": 32,
@@ -6896,7 +6904,7 @@
           },
           {
             "result": {
-              "duration": 565048230,
+              "duration": 1064123672,
               "status": "passed"
             },
             "line": 33,
@@ -6908,7 +6916,7 @@
           },
           {
             "result": {
-              "duration": 64586156,
+              "duration": 105850286,
               "status": "passed"
             },
             "line": 34,
@@ -6926,7 +6934,7 @@
           },
           {
             "result": {
-              "duration": 906314659,
+              "duration": 927708776,
               "status": "passed"
             },
             "line": 35,
@@ -6960,7 +6968,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2882296238,
+              "duration": 2860161406,
               "status": "passed"
             },
             "line": 40,
@@ -6972,7 +6980,7 @@
           },
           {
             "result": {
-              "duration": 6417240293,
+              "duration": 4587379218,
               "status": "passed"
             },
             "line": 41,
@@ -6984,7 +6992,7 @@
           },
           {
             "result": {
-              "duration": 5860768751,
+              "duration": 6114149976,
               "status": "passed"
             },
             "line": 42,
@@ -7019,7 +7027,7 @@
           },
           {
             "result": {
-              "duration": 205719461,
+              "duration": 206439656,
               "status": "passed"
             },
             "line": 46,
@@ -7031,7 +7039,7 @@
           },
           {
             "result": {
-              "duration": 705465854,
+              "duration": 636078804,
               "status": "passed"
             },
             "line": 47,
@@ -7066,7 +7074,7 @@
           },
           {
             "result": {
-              "duration": 859703435,
+              "duration": 943029451,
               "status": "passed"
             },
             "line": 51,
@@ -7100,7 +7108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2818188570,
+              "duration": 2896650905,
               "status": "passed"
             },
             "line": 57,
@@ -7112,7 +7120,7 @@
           },
           {
             "result": {
-              "duration": 6297790826,
+              "duration": 4596320314,
               "status": "passed"
             },
             "line": 58,
@@ -7124,7 +7132,7 @@
           },
           {
             "result": {
-              "duration": 8366044850,
+              "duration": 8998019975,
               "status": "passed"
             },
             "line": 59,
@@ -7168,7 +7176,7 @@
           },
           {
             "result": {
-              "duration": 211580745,
+              "duration": 208383980,
               "status": "passed"
             },
             "line": 64,
@@ -7180,7 +7188,7 @@
           },
           {
             "result": {
-              "duration": 196374564,
+              "duration": 189898138,
               "status": "passed"
             },
             "line": 65,
@@ -7198,7 +7206,7 @@
           },
           {
             "result": {
-              "duration": 57885260,
+              "duration": 67083245,
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[thre]e\u003e but was:\u003c[on]e\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.SeleniumStepDef.is_displayed(SeleniumStepDef.java:151)\r\n\tat ✽.Then \"three\" is displayed(se/iths/testGUI/ViewRequests.feature:66)\r\n",
               "status": "failed"
             },

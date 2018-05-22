@@ -30,7 +30,7 @@ Feature: Unlearn all responses so that I can rerun all the tests without restart
  		Given that the mimicService is running
  		And that no requests are stored
  		When I write unlearnAllResponses in url
- 		Then the mock shows error message
+ 		Then message "All responses unlearned" is returned
 
    
         

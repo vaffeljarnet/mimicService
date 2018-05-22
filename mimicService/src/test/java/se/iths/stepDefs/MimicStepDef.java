@@ -56,9 +56,9 @@ public class MimicStepDef {
 	    
 	}
 
-	@Then("^the mock shows error message$")
-	public void the_mock_shows_error_message() throws Throwable {
-		Assert.assertEquals("Nothing to unlearn", service.executeGetRequest(host + "unlearnAllResponses"));
+	@Then("^message \"([^\"]*)\" is returned$")
+	public void the_mock_shows_error_message(String arg1) throws Throwable {
+		Assert.assertEquals(arg1, service.executeGetRequest(host + "unlearnAllResponses"));
 	}
 	
 	@When("^I teach the mock that \"([^\"]*)\" has response \"([^\"]*)\"$")

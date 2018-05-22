@@ -1,8 +1,8 @@
-@GUILearnNextResponseFeature
+@GuiLearnNextResponseFeature
 Feature: LearnNextResponse adds states/responses to a request
 
 #New test case sprint 6      
-@GUILearnNextResponse111
+@GuiLearnNextResponse111
   Scenario: LearnNextResponse without paramaters 
   					presents the response form
   Given that the mimicService is running
@@ -11,7 +11,7 @@ Feature: LearnNextResponse adds states/responses to a request
   And I enter the request "2+2"
   Then "2+2" respondes with "4"
   
-@GUILearnNextResponse112
+@GuiLearnNextResponse112
   Scenario: LearnNextResponse in Chrome
     Given that the mimicService is running
     When I open the url "learnNextResponse?text=2" in Chrome
@@ -19,7 +19,7 @@ Feature: LearnNextResponse adds states/responses to a request
     Then "2" is displayed
     And the browser is closed
     
-@GUILearnNextResponse113
+@GuiLearnNextResponse113
   Scenario: LearnNextResponse in FireFox
     Given that the mimicService is running
     When I open the url "learnNextResponse?text=2" in FireFox
@@ -27,7 +27,7 @@ Feature: LearnNextResponse adds states/responses to a request
     Then "2" is displayed
     And the browser is closed
     
-@GUILearnNextResponse114
+@GuiLearnNextResponse114
   Scenario: LearnNextResponse in Edge
     Given that the mimicService is running
     When I open the url "learnNextResponse?text=2" in Edge

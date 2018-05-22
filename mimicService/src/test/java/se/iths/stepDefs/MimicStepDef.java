@@ -76,13 +76,17 @@ public class MimicStepDef {
 	@Then("^\"([^\"]*)\" does not return empty response$")
 	public void does_not_return_empty_response(String arg1, String arg2) throws Throwable {
 		helper.wait(100);
-		Assert.assertFalse(service.executeGetRequest(host + arg1).equals(""));
+		String response = service.executeGetRequest(host + arg1);
+		Assert.assertFalse(response.equals(""));
+		System.out.println("Actual response was: "+response);
 	}
 	
 	@Then("^\"([^\"]*)\" does not responde with \"([^\"]*)\"$")
 	public void does_not_responde_with(String arg1, String arg2) throws Throwable {
 		helper.wait(100);
-		Assert.assertFalse(service.executeGetRequest(host + arg1).equals(arg2));
+		String response = service.executeGetRequest(host + arg1);
+		Assert.assertFalse(response.equals(arg2));
+		System.out.println("Actual response was: "+response);
 	}
 	
 	@When("^I call unlearnResponse")
@@ -96,10 +100,18 @@ public class MimicStepDef {
 		helper.wait(100);
 		service.executeGetRequest(host+arg1);
 	}
-	
+
+	@When("^\"([^\"]*)\" does not return an empty response$")
+	public void does_not_return_empty(String arg1) throws Throwable {
+		String response = service.executeGetRequest(host+arg1);
+		Assert.assertTrue(!response.equals(""));
+		System.out.println("Actual response was: "+response);
+	}
 	@Then("^the request \"([^\"]*)\" has the mime type \"([^\"]*)\"$")
 	public void the_request_has_the_mime_type(String arg1, String arg2) throws Throwable {
-	    Assert.assertTrue(service.getMimeType(host+arg1).contains(arg2));
+		String mimeType = service.getMimeType(host+arg1);
+	    Assert.assertTrue(mimeType.contains(arg2));
+	    System.out.println("Mime Type: "+mimeType);
 	}
 	
 	@When("^I terminate the mimicService$")

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="112" failures="12" name="se.iths.testSuites.Sprint6TestSuite" time="0.398" errors="14" skipped="7">
+<testsuite tests="112" failures="14" name="se.iths.testSuites.Sprint6TestSuite" time="0.255" errors="2" skipped="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -64,24 +64,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="Given that the mimicService is running" time="0.003"/>
+  <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="When I teach the mock that &quot;test/test&quot; has response &quot;test&quot;" time="0"/>
   <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="Then &quot;test/test&quot; respondes with &quot;test&quot;" time="0"/>
-  <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="| &quot;test/test&quot; | &quot;test&quot; |" time="0.001"/>
+  <testcase classname="| &quot;test/test&quot; | &quot;test&quot; |" name="| &quot;test/test&quot; | &quot;test&quot; |" time="0"/>
   <testcase classname="| &quot;te/te/te&quot; | &quot;test&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;te/te/te&quot; | &quot;test&quot; |" name="When I teach the mock that &quot;te/te/te&quot; has response &quot;test&quot;" time="0"/>
   <testcase classname="| &quot;te/te/te&quot; | &quot;test&quot; |" name="Then &quot;te/te/te&quot; respondes with &quot;test&quot;" time="0"/>
-  <testcase classname="| &quot;te/te/te&quot; | &quot;test&quot; |" name="| &quot;te/te/te&quot; | &quot;test&quot; |" time="0"/>
+  <testcase classname="| &quot;te/te/te&quot; | &quot;test&quot; |" name="| &quot;te/te/te&quot; | &quot;test&quot; |" time="0.002"/>
   <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Given that the mimicService is running" time="0"/>
   <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="When I make the request &quot;test?ett&quot;" time="0"/>
   <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Then &quot;test?ett&quot; returns the response form" time="0"/>
-  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Scenario: Calling with format &quot;/text?param&quot;" time="0.002"/>
+  <testcase classname="Scenario: Calling with format &quot;/text?param&quot;" name="Scenario: Calling with format &quot;/text?param&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="When I teach the mock that &quot;add?value1=10&amp;value2=10&quot; has response &quot;20&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="And I teach the mock that &quot;add?value1=20&amp;value2=20&quot; has response &quot;40&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="And &quot;add?value1=1&amp;value2=2&quot; does not responde with &quot;3&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="When I teach the mock that &quot;add?value1=1&amp;value2=2&quot; has response &quot;3&quot;" time="0"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;" time="0.022">
+  <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;" time="0.002">
     <failure message="expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -89,7 +89,7 @@
 	at ✽.Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;(se/iths/testAPI/MachineLearning.feature:75)
 </failure>
   </testcase>
-  <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" time="0.023">
+  <testcase classname="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="| &quot;add?value1=10&amp;value2=10&quot; | &quot;20&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" time="0.002">
     <failure message="expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -100,32 +100,54 @@
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="When I teach the mock that &quot;add?value1=10&amp;value2=20&quot; has response &quot;30&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="And I teach the mock that &quot;add?value1=20&amp;value2=20&quot; has response &quot;40&quot;" time="0"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="And &quot;add?value1=1&amp;value2=2&quot; does not responde with &quot;3&quot;" time="0"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="When I teach the mock that &quot;add?value1=1&amp;value2=2&quot; has response &quot;3&quot;" time="0"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;" time="0.001">
-    <failure message="expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ✽.Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;(se/iths/testAPI/MachineLearning.feature:75)
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="And &quot;add?value1=1&amp;value2=2&quot; does not responde with &quot;3&quot;" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at se.iths.stepDefs.MimicStepDef.does_not_responde_with(MimicStepDef.java:85)
+	at ✽.And &quot;add?value1=1&amp;value2=2&quot; does not responde with &quot;3&quot;(se/iths/testAPI/MachineLearning.feature:73)
 </failure>
   </testcase>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" time="0.003">
-    <failure message="expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[4]&gt; but was:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)
-	at ✽.Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;(se/iths/testAPI/MachineLearning.feature:75)
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" time="0.001">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at se.iths.stepDefs.MimicStepDef.does_not_responde_with(MimicStepDef.java:85)
+	at ✽.And &quot;add?value1=1&amp;value2=2&quot; does not responde with &quot;3&quot;(se/iths/testAPI/MachineLearning.feature:73)
 </failure>
+  </testcase>
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="When I teach the mock that &quot;add?value1=1&amp;value2=2&quot; has response &quot;3&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;40&quot; |" name="Then &quot;add?value1=1&amp;value2=3&quot; respondes with &quot;4&quot;" time="0.001">
+    <skipped/>
   </testcase>
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="When I teach the mock that &quot;add?value1=10&amp;value2=20&quot; has response &quot;15&quot;" time="0"/>
   <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="And I teach the mock that &quot;add?value1=20&amp;value2=20&quot; has response &quot;30&quot;" time="0"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="Then &quot;add?value1=1&amp;value2=2&quot; returns the response form" time="0.001"/>
-  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" time="0.002"/>
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="Then &quot;add?value1=1&amp;value2=2&quot; returns the response form" time="0">
+    <failure message="expected:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt; but was:&lt;[1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt; but was:&lt;[1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)
+	at ✽.Then &quot;add?value1=1&amp;value2=2&quot; returns the response form(se/iths/testAPI/MachineLearning.feature:94)
+</failure>
+  </testcase>
+  <testcase classname="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" name="| &quot;add?value1=10&amp;value2=20&quot; | &quot;15&quot; | &quot;add?value1=20&amp;value2=20&quot; | &quot;30&quot; | &quot;add?value1=1&amp;value2=2&quot; |" time="0">
+    <failure message="expected:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt; but was:&lt;[1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Paste or type json, xml, html or text response to learn and press Learn&lt;br&gt;&lt;br&gt;&lt;form action=&quot;/learnresponse&quot; method=&quot;post&quot;&gt;&lt;select name=&apos;mime&apos;&gt;&lt;option value=&apos;auto&apos;&gt;Auto&lt;/option&gt;&lt;option value=&apos;application/json&apos;&gt;JSON&lt;/option&gt;&lt;option value=&apos;application/xml&apos;&gt;XML&lt;/option&gt;&lt;option value=&apos;text/html&apos;&gt;HTML&lt;/option&gt;&lt;option value=&apos;text/plain&apos;&gt;Text&lt;/option&gt;&lt;/select&gt;&lt;br&gt;&lt;textarea name=&apos;text&apos; rows=&apos;30&apos; cols=&apos;150&apos;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; id=&apos;learn&apos; value=&quot;Learn&quot;&gt;&lt;/form&gt;]&gt; but was:&lt;[1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)
+	at ✽.Then &quot;add?value1=1&amp;value2=2&quot; returns the response form(se/iths/testAPI/MachineLearning.feature:94)
+</failure>
+  </testcase>
   <testcase classname="Scenario: LearnNextResponse without paramaters" name="Given that the mimicService is running" time="0"/>
   <testcase classname="Scenario: LearnNextResponse without paramaters" name="And I open the browser with the request &quot;LearnNextResponse&quot;" time="0"/>
-  <testcase classname="Scenario: LearnNextResponse without paramaters" name="And I input &quot;4&quot; in the response form and press the Learn button" time="0.063">
+  <testcase classname="Scenario: LearnNextResponse without paramaters" name="And I input &quot;4&quot; in the response form and press the Learn button" time="0.002">
     <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -135,7 +157,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b22866a3bc5adf813217725b4f47ac79
+Session ID: d7904ae9a207c22db22b5f3e25e50bbe
 *** Element info: {Using=xpath, value=/html/body/form/textarea}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -145,7 +167,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b22866a3bc5adf813217725b4f47ac79
+Session ID: d7904ae9a207c22db22b5f3e25e50bbe
 *** Element info: {Using=xpath, value=/html/body/form/textarea}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -168,7 +190,7 @@ Session ID: b22866a3bc5adf813217725b4f47ac79
 	at ✽.And I input &quot;4&quot; in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)
 </error>
   </testcase>
-  <testcase classname="Scenario: LearnNextResponse without paramaters" name="Scenario: LearnNextResponse without paramaters" time="0.063">
+  <testcase classname="Scenario: LearnNextResponse without paramaters" name="Scenario: LearnNextResponse without paramaters" time="0.065">
     <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -178,7 +200,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b22866a3bc5adf813217725b4f47ac79
+Session ID: d7904ae9a207c22db22b5f3e25e50bbe
 *** Element info: {Using=xpath, value=/html/body/form/textarea}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -188,7 +210,7 @@ Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &a
 System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b22866a3bc5adf813217725b4f47ac79
+Session ID: d7904ae9a207c22db22b5f3e25e50bbe
 *** Element info: {Using=xpath, value=/html/body/form/textarea}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -211,10 +233,10 @@ Session ID: b22866a3bc5adf813217725b4f47ac79
 	at ✽.And I input &quot;4&quot; in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)
 </error>
   </testcase>
-  <testcase classname="Scenario: LearnNextResponse without paramaters" name="And I enter the request &quot;2+2&quot;" time="0.063">
+  <testcase classname="Scenario: LearnNextResponse without paramaters" name="And I enter the request &quot;2+2&quot;" time="0.065">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: LearnNextResponse without paramaters" name="Then &quot;2+2&quot; respondes with &quot;4&quot;" time="0.063">
+  <testcase classname="Scenario: LearnNextResponse without paramaters" name="Then &quot;2+2&quot; respondes with &quot;4&quot;" time="0.065">
     <skipped/>
   </testcase>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Given that the mimicService is running" time="0"/>
@@ -222,24 +244,14 @@ Session ID: b22866a3bc5adf813217725b4f47ac79
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And I input &quot;TextMime&quot; in the response form" time="0"/>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And the browser is closed" time="0"/>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
-  </testcase>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
-  </testcase>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;" time="0"/>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" time="0.001"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="When I open the browser with the request &quot;JSON&quot;" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And I input &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; in the response form" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And the browser is closed" time="0"/>
-  <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;" time="0">
+  <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;" time="0.016">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -248,7 +260,7 @@ Session ID: b22866a3bc5adf813217725b4f47ac79
 	at ✽.Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;(se/iths/testGUI/ResponseForm.feature:23)
 </failure>
   </testcase>
-  <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" time="0">
+  <testcase classname="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" name="| &quot;JSON&quot; | &quot;{ &apos;name&apos;:&apos;John&apos;, &apos;age&apos;:30 }&quot; | &quot;application/json;&quot; |" time="0.016">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -263,239 +275,107 @@ Session ID: b22866a3bc5adf813217725b4f47ac79
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And the browser is closed" time="0"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
 	at ✽.Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
+</failure>
   </testcase>
-  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
 	at ✽.Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
+</failure>
   </testcase>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="Given that the mimicService is running" time="0"/>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="When I open the browser with the request &quot;HTML&quot;" time="0.001"/>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I input &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; in the response form" time="0"/>
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="When I open the browser with the request &quot;HTML&quot;" time="0"/>
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I input &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; in the response form" time="0.001"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And the browser is closed" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
 	at ✽.Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
+</failure>
   </testcase>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" time="0.002">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="| &quot;HTML&quot; | &quot;&lt;html&gt;Det här är HTML&lt;/html&gt;&quot; | &quot;text/html;&quot; |" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
 	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
 	at ✽.Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;(se/iths/testGUI/ResponseForm.feature:23)
-</error>
+</failure>
   </testcase>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Given that the mimicService is running" time="0"/>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="When I open the browser with the request &quot;TEXT&quot;" time="0"/>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="When I open the browser with the request &quot;TEXT&quot;" time="0.005"/>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And I set mime type as &quot;TEXT&quot;" time="0"/>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And I input &quot;TextMime&quot; in the response form" time="0"/>
   <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And I press the learn button" time="0"/>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And the browser is closed" time="0.023"/>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</error>
-  </testcase>
-  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</error>
-  </testcase>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="And the browser is closed" time="0"/>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="Then the request &quot;TEXT&quot; has the mime type &quot;text/plain;&quot;" time="0.001"/>
+  <testcase classname="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" name="| &quot;TEXT&quot; | &quot;TextMime&quot; | &quot;text/plain;&quot; |" time="0.002"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="When I open the browser with the request &quot;JSON&quot;" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And I set mime type as &quot;JSON&quot;" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And I input &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; in the response form" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="And the browser is closed" time="0"/>
-  <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;" time="0">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</failure>
-  </testcase>
-  <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" time="0">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</failure>
-  </testcase>
+  <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="Then the request &quot;JSON&quot; has the mime type &quot;application/json;&quot;" time="0"/>
+  <testcase classname="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" name="| &quot;JSON&quot; | &quot;{ /&apos;name/&apos;:/&apos;John/&apos;, /&apos;age/&apos;:30 }&quot; | &quot;application/json;&quot; |" time="0.001"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="When I open the browser with the request &quot;XML&quot;" time="0"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And I set mime type as &quot;XML&quot;" time="0"/>
-  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And I input &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; in the response form" time="0"/>
+  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And I input &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; in the response form" time="0.001"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="And the browser is closed" time="0"/>
-  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</error>
-  </testcase>
-  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</error>
-  </testcase>
+  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="Then the request &quot;XML&quot; has the mime type &quot;application/xml;&quot;" time="0"/>
+  <testcase classname="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" name="| &quot;XML&quot; | &quot;&lt;note&gt;&lt;to&gt;Test&lt;/to&gt;&lt;/note&gt;&quot; | &quot;application/xml;&quot; |" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="Given that the mimicService is running" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="When I open the browser with the request &quot;HTML&quot;" time="0"/>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I set mime type as &quot;HTML&quot;" time="0"/>
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I set mime type as &quot;HTML&quot;" time="0.004"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I input &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; in the response form" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And I press the learn button" time="0"/>
   <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="And the browser is closed" time="0"/>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;" time="0">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</failure>
-  </testcase>
-  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" time="0">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)
-	at ✽.Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;(se/iths/testGUI/ResponseForm.feature:41)
-</failure>
-  </testcase>
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="Then the request &quot;HTML&quot; has the mime type &quot;text/html;&quot;" time="0"/>
+  <testcase classname="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" name="| &quot;HTML&quot; | &quot;&lt;html&gt; Det här är HTML &lt;/html&gt;&quot; | &quot;text/html;&quot; |" time="0"/>
   <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="Given that the mimicService is running" time="0"/>
   <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="When I open the browser" time="0"/>
   <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="And I teach Mimic the below requests and responses" time="0"/>
   <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="And I make a /viewRequests request" time="0"/>
-  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="Then all requests below are clickable and displays the corresponding response" time="0.003">
-    <failure message="expected:&lt;[drink]&gt; but was:&lt;[1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[drink]&gt; but was:&lt;[1]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.SeleniumStepDef.all_requests_below_are_clickable(SeleniumStepDef.java:171)
-	at ✽.Then all requests below are clickable and displays the corresponding response(se/iths/testGUI/ViewRequests.feature:47)
-</failure>
-  </testcase>
-  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="Scenario: Click on requests in ViewRequests to view the response" time="0.004">
-    <failure message="expected:&lt;[drink]&gt; but was:&lt;[1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[drink]&gt; but was:&lt;[1]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at se.iths.stepDefs.SeleniumStepDef.all_requests_below_are_clickable(SeleniumStepDef.java:171)
-	at ✽.Then all requests below are clickable and displays the corresponding response(se/iths/testGUI/ViewRequests.feature:47)
-</failure>
-  </testcase>
-  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="And the browser is closed" time="0.005">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="Then all requests below are clickable and displays the corresponding response" time="0"/>
+  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="And the browser is closed" time="0"/>
+  <testcase classname="Scenario: Click on requests in ViewRequests to view the response" name="Scenario: Click on requests in ViewRequests to view the response" time="0"/>
   <testcase classname="Scenario: A request with multiple states displays the selected" name="Given that the mimicService is running" time="0"/>
   <testcase classname="Scenario: A request with multiple states displays the selected" name="When I open the browser" time="0"/>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I add the states below to the request &quot;numbers&quot;" time="0.007">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
-  (Session info: chrome=66.0.3359.139)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b4051600aa7549e80a9f51284f73c58b
-*** Element info: {Using=xpath, value=/html/body/form/textarea}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
-  (Session info: chrome=66.0.3359.139)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b4051600aa7549e80a9f51284f73c58b
-*** Element info: {Using=xpath, value=/html/body/form/textarea}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)
-	at se.iths.stepDefs.SeleniumStepDef.i_add_the_states_bellow_to_the_request(SeleniumStepDef.java:117)
-	at ✽.And I add the states below to the request &quot;numbers&quot;(se/iths/testGUI/ViewRequests.feature:59)
-</error>
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I add the states below to the request &quot;numbers&quot;" time="0"/>
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I make a /viewRequests request" time="0"/>
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I click state &quot;3&quot; in the viewRequests overview" time="0"/>
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="Then &quot;three&quot; is displayed" time="0">
+    <failure message="expected:&lt;[thre]e&gt; but was:&lt;[on]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[thre]e&gt; but was:&lt;[on]e&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at se.iths.stepDefs.SeleniumStepDef.is_displayed(SeleniumStepDef.java:151)
+	at ✽.Then &quot;three&quot; is displayed(se/iths/testGUI/ViewRequests.feature:66)
+</failure>
   </testcase>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="Scenario: A request with multiple states displays the selected" time="0.007">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
-  (Session info: chrome=66.0.3359.139)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b4051600aa7549e80a9f51284f73c58b
-*** Element info: {Using=xpath, value=/html/body/form/textarea}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/form/textarea&quot;}
-  (Session info: chrome=66.0.3359.139)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-1A0S11AO&apos;, ip: &apos;192.168.1.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\LARSS_~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: b4051600aa7549e80a9f51284f73c58b
-*** Element info: {Using=xpath, value=/html/body/form/textarea}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)
-	at se.iths.stepDefs.SeleniumStepDef.i_add_the_states_bellow_to_the_request(SeleniumStepDef.java:117)
-	at ✽.And I add the states below to the request &quot;numbers&quot;(se/iths/testGUI/ViewRequests.feature:59)
-</error>
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="Scenario: A request with multiple states displays the selected" time="0">
+    <failure message="expected:&lt;[thre]e&gt; but was:&lt;[on]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[thre]e&gt; but was:&lt;[on]e&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at se.iths.stepDefs.SeleniumStepDef.is_displayed(SeleniumStepDef.java:151)
+	at ✽.Then &quot;three&quot; is displayed(se/iths/testGUI/ViewRequests.feature:66)
+</failure>
   </testcase>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I make a /viewRequests request" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="And I click state &quot;3&quot; in the viewRequests overview" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="Then &quot;three&quot; is displayed" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: A request with multiple states displays the selected" name="And the browser is closed" time="0.008">
+  <testcase classname="Scenario: A request with multiple states displays the selected" name="And the browser is closed" time="0.001">
     <skipped/>
   </testcase>
 </testsuite>

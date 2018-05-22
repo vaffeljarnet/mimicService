@@ -130,7 +130,7 @@ public class SeleniumStepDef {
 	public void i_set_mime_type_as(String arg1) throws Throwable {
 		driver.selectMimeType(arg1);
 	}
-
+	
 	@Then("^\"([^\"]*)\" is present in the overview$")
 	public void is_present_in_the_overview(String arg1) throws Throwable {
 	    assertTrue(driver.getValue().contains(arg1));

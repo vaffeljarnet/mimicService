@@ -18,7 +18,7 @@ public class MimicGuiSelenium {
 		System.setProperty("webdriver.chrome.driver", "commonFiles/webDrivers/chromedriver.exe");
 		webdriver = new ChromeDriver();
 		webdriver.manage().window().maximize();
-		webdriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	public MimicGuiSelenium(String browser) {

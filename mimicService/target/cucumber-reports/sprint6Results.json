@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3618121107,
+              "duration": 4158473398,
               "status": "passed"
             },
             "line": 34,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 26997691,
+              "duration": 51857366,
               "status": "passed"
             },
             "line": 35,
@@ -50,8 +50,9 @@
           },
           {
             "result": {
-              "duration": 110793578,
-              "status": "passed"
+              "duration": 1162837251,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[test]\u003e but was:\u003c[Error]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"test/test\" respondes with \"test\"(se/iths/testAPI/LearnNextResponse.feature:36)\r\n",
+              "status": "failed"
             },
             "line": 36,
             "name": "\"test/test\" respondes with \"test\"",
@@ -96,7 +97,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2739558395,
+              "duration": 4143703849,
               "status": "passed"
             },
             "line": 34,
@@ -108,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 24599911,
+              "duration": 34778266,
               "status": "passed"
             },
             "line": 35,
@@ -134,8 +135,9 @@
           },
           {
             "result": {
-              "duration": 106904522,
-              "status": "passed"
+              "duration": 111078373,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[test]\u003e but was:\u003c[\"4\"]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"te/te/te\" respondes with \"test\"(se/iths/testAPI/LearnNextResponse.feature:36)\r\n",
+              "status": "failed"
             },
             "line": 36,
             "name": "\"te/te/te\" respondes with \"test\"",
@@ -196,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2754876197,
+              "duration": 2610775932,
               "status": "passed"
             },
             "line": 37,
@@ -208,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 129851882,
+              "duration": 117280673,
               "status": "passed"
             },
             "line": 38,
@@ -226,8 +228,9 @@
           },
           {
             "result": {
-              "duration": 107809793,
-              "status": "passed"
+              "duration": 118639811,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e but was:\u003c[\"8\"]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)\r\n\tat ✽.Then \"test?ett\" returns the response form(se/iths/testAPI/MachineLearning.feature:39)\r\n",
+              "status": "failed"
             },
             "line": 39,
             "name": "\"test?ett\" returns the response form",
@@ -251,16 +254,16 @@
         ]
       },
       {
-        "line": 79,
-        "name": "Correcting a request does not affect learned formats",
+        "line": 69,
+        "name": "Mimic can learn how to respond with complex responses",
         "description": "",
-        "id": "as-a-tester-i-would-like-the-mock-to-learn-how-to-respond;correcting-a-request-does-not-affect-learned-formats;;2",
+        "id": "as-a-tester-i-would-like-the-mock-to-learn-how-to-respond;mimic-can-learn-how-to-respond-with-complex-responses",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2837314996,
+              "duration": 2420365244,
               "status": "passed"
             },
             "line": 70,
@@ -272,117 +275,63 @@
           },
           {
             "result": {
-              "duration": 23318744,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "I teach the mock that \"add?value1\u003d10\u0026value2\u003d10\" has response \"20\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d10\u0026value2\u003d10",
-                  "offset": 23
-                },
-                {
-                  "val": "20",
-                  "offset": 62
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9163515,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "I teach the mock that \"add?value1\u003d20\u0026value2\u003d20\" has response \"40\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d20\u0026value2\u003d20",
-                  "offset": 23
-                },
-                {
-                  "val": "40",
-                  "offset": 62
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 130246245,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "\"add?value1\u003d1\u0026value2\u003d2\" does not responde with \"3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d1\u0026value2\u003d2",
-                  "offset": 1
-                },
-                {
-                  "val": "3",
-                  "offset": 48
-                }
-              ],
-              "location": "MimicStepDef.does_not_responde_with(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7751028,
-              "status": "passed"
-            },
-            "line": 74,
-            "name": "I teach the mock that \"add?value1\u003d1\u0026value2\u003d2\" has response \"3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d1\u0026value2\u003d2",
-                  "offset": 23
-                },
-                {
-                  "val": "3",
-                  "offset": 60
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2523975743,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[4]\u003e but was:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.respondes_with(MimicStepDef.java:73)\r\n\tat ✽.Then \"add?value1\u003d1\u0026value2\u003d3\" respondes with \"4\"(se/iths/testAPI/MachineLearning.feature:75)\r\n",
+              "duration": 1528132358,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[{ \u0027TotalCost\u0027: 10000,\u0027MontlyCost\u0027: 1000,\u0027Months\u0027: 10;}]\u003e but was:\u003c[Error]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(MimicStepDef.java:33)\r\n\tat ✽.And that the mock has learned \"montlyCost?TotalCost\u003d10000\u0026Months\u003d10\" with \"{ \u0027TotalCost\u0027: 10000,\u0027MontlyCost\u0027: 1000,\u0027Months\u0027: 10;}\"(se/iths/testAPI/MachineLearning.feature:71)\r\n",
               "status": "failed"
             },
-            "line": 75,
-            "name": "\"add?value1\u003d1\u0026value2\u003d3\" respondes with \"4\"",
+            "line": 71,
+            "name": "that the mock has learned \"montlyCost?TotalCost\u003d10000\u0026Months\u003d10\" with \"{ \u0027TotalCost\u0027: 10000,\u0027MontlyCost\u0027: 1000,\u0027Months\u0027: 10;}\"",
             "match": {
               "arguments": [
                 {
-                  "val": "add?value1\u003d1\u0026value2\u003d3",
+                  "val": "montlyCost?TotalCost\u003d10000\u0026Months\u003d10",
+                  "offset": 27
+                },
+                {
+                  "val": "{ \u0027TotalCost\u0027: 10000,\u0027MontlyCost\u0027: 1000,\u0027Months\u0027: 10;}",
+                  "offset": 71
+                }
+              ],
+              "location": "MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "that the mock has learned \"montlyCost?TotalCost\u003d20000\u0026Months\u003d10\" with \"{ \u0027TotalCost\u0027: 20000,\u0027MontlyCost\u0027: 2000,\u0027Months\u0027: 10;}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "montlyCost?TotalCost\u003d20000\u0026Months\u003d10",
+                  "offset": 27
+                },
+                {
+                  "val": "{ \u0027TotalCost\u0027: 20000,\u0027MontlyCost\u0027: 2000,\u0027Months\u0027: 10;}",
+                  "offset": 71
+                }
+              ],
+              "location": "MimicStepDef.that_the_mock_has_learned_questionOne_with_responseOne(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "\"montlyCost?TotalCost\u003d30000\u0026Months\u003d10\" respondes with \"{ \u0027TotalCost\u0027: 30000,\u0027MontlyCost\u0027: 3000,\u0027Months\u0027: 10;}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "montlyCost?TotalCost\u003d30000\u0026Months\u003d10",
                   "offset": 1
                 },
                 {
-                  "val": "4",
-                  "offset": 40
+                  "val": "{ \u0027TotalCost\u0027: 30000,\u0027MontlyCost\u0027: 3000,\u0027Months\u0027: 10;}",
+                  "offset": 55
                 }
               ],
               "location": "MimicStepDef.respondes_with(String,String)"
@@ -394,27 +343,23 @@
           {
             "line": 68,
             "name": "@MachineLearning117"
-          },
-          {
-            "line": 1,
-            "name": "@MachineLearningFeature"
           }
         ]
       },
       {
-        "line": 80,
-        "name": "Correcting a request does not affect learned formats",
+        "line": 87,
+        "name": "Correcting does not produce empty responses",
         "description": "",
-        "id": "as-a-tester-i-would-like-the-mock-to-learn-how-to-respond;correcting-a-request-does-not-affect-learned-formats;;3",
+        "id": "as-a-tester-i-would-like-the-mock-to-learn-how-to-respond;correcting-does-not-produce-empty-responses",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2800768044,
+              "duration": 4018883898,
               "status": "passed"
             },
-            "line": 70,
+            "line": 88,
             "name": "that the mimicService is running",
             "match": {
               "location": "MimicStepDef.that_the_mimicService_is_running()"
@@ -423,159 +368,10 @@
           },
           {
             "result": {
-              "duration": 21713794,
+              "duration": 2081922557,
               "status": "passed"
             },
-            "line": 71,
-            "name": "I teach the mock that \"add?value1\u003d10\u0026value2\u003d20\" has response \"30\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d10\u0026value2\u003d20",
-                  "offset": 23
-                },
-                {
-                  "val": "30",
-                  "offset": 62
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14974324,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "I teach the mock that \"add?value1\u003d20\u0026value2\u003d20\" has response \"40\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d20\u0026value2\u003d20",
-                  "offset": 23
-                },
-                {
-                  "val": "40",
-                  "offset": 62
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 112625460,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertFalse(Assert.java:64)\r\n\tat org.junit.Assert.assertFalse(Assert.java:74)\r\n\tat se.iths.stepDefs.MimicStepDef.does_not_responde_with(MimicStepDef.java:85)\r\n\tat ✽.And \"add?value1\u003d1\u0026value2\u003d2\" does not responde with \"3\"(se/iths/testAPI/MachineLearning.feature:73)\r\n",
-              "status": "failed"
-            },
-            "line": 73,
-            "name": "\"add?value1\u003d1\u0026value2\u003d2\" does not responde with \"3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d1\u0026value2\u003d2",
-                  "offset": 1
-                },
-                {
-                  "val": "3",
-                  "offset": 48
-                }
-              ],
-              "location": "MimicStepDef.does_not_responde_with(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 74,
-            "name": "I teach the mock that \"add?value1\u003d1\u0026value2\u003d2\" has response \"3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d1\u0026value2\u003d2",
-                  "offset": 23
-                },
-                {
-                  "val": "3",
-                  "offset": 60
-                }
-              ],
-              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 75,
-            "name": "\"add?value1\u003d1\u0026value2\u003d3\" respondes with \"4\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "add?value1\u003d1\u0026value2\u003d3",
-                  "offset": 1
-                },
-                {
-                  "val": "4",
-                  "offset": 40
-                }
-              ],
-              "location": "MimicStepDef.respondes_with(String,String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 68,
-            "name": "@MachineLearning117"
-          },
-          {
-            "line": 1,
-            "name": "@MachineLearningFeature"
-          }
-        ]
-      },
-      {
-        "line": 98,
-        "name": "Teaching Mimic wrong",
-        "description": "",
-        "id": "as-a-tester-i-would-like-the-mock-to-learn-how-to-respond;teaching-mimic-wrong;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2749160593,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "that the mimicService is running",
-            "match": {
-              "location": "MimicStepDef.that_the_mimicService_is_running()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 23709003,
-              "status": "passed"
-            },
-            "line": 92,
+            "line": 89,
             "name": "I teach the mock that \"add?value1\u003d10\u0026value2\u003d20\" has response \"15\"",
             "match": {
               "arguments": [
@@ -590,18 +386,14 @@
               ],
               "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 11873174,
+              "duration": 14160974,
               "status": "passed"
             },
-            "line": 93,
+            "line": 90,
             "name": "I teach the mock that \"add?value1\u003d20\u0026value2\u003d20\" has response \"30\"",
             "match": {
               "arguments": [
@@ -616,43 +408,75 @@
               ],
               "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
             },
-            "matchedColumns": [
-              2,
-              3
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 184153810,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Paste or type json, xml, html or text response to learn and press Learn\u003cbr\u003e\u003cbr\u003e\u003cform action\u003d\"/learnresponse\" method\u003d\"post\"\u003e\u003cselect name\u003d\u0027mime\u0027\u003e\u003coption value\u003d\u0027auto\u0027\u003eAuto\u003c/option\u003e\u003coption value\u003d\u0027application/json\u0027\u003eJSON\u003c/option\u003e\u003coption value\u003d\u0027application/xml\u0027\u003eXML\u003c/option\u003e\u003coption value\u003d\u0027text/html\u0027\u003eHTML\u003c/option\u003e\u003coption value\u003d\u0027text/plain\u0027\u003eText\u003c/option\u003e\u003c/select\u003e\u003cbr\u003e\u003ctextarea name\u003d\u0027text\u0027 rows\u003d\u002730\u0027 cols\u003d\u0027150\u0027\u003e\u003c/textarea\u003e\u003cbr\u003e\u003cbr\u003e\u003cinput type\u003d\"submit\" id\u003d\u0027learn\u0027 value\u003d\"Learn\"\u003e\u003c/form\u003e]\u003e but was:\u003c[1]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.MimicStepDef.returns_the_response_form(MimicStepDef.java:44)\r\n\tat ✽.Then \"add?value1\u003d1\u0026value2\u003d2\" returns the response form(se/iths/testAPI/MachineLearning.feature:94)\r\n",
-              "status": "failed"
+              "duration": 103753306,
+              "status": "passed"
             },
-            "line": 94,
-            "name": "\"add?value1\u003d1\u0026value2\u003d2\" returns the response form",
+            "line": 91,
+            "name": "\"add?value1\u003d1\u0026value2\u003d2\" does not responde with \"3\"",
             "match": {
               "arguments": [
                 {
                   "val": "add?value1\u003d1\u0026value2\u003d2",
                   "offset": 1
+                },
+                {
+                  "val": "3",
+                  "offset": 48
                 }
               ],
-              "location": "MimicStepDef.returns_the_response_form(String)"
+              "location": "MimicStepDef.does_not_responde_with(String,String)"
             },
-            "matchedColumns": [
-              4
-            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6347570,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I teach the mock that \"add?value1\u003d1\u0026value2\u003d2\" has response \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add?value1\u003d1\u0026value2\u003d2",
+                  "offset": 23
+                },
+                {
+                  "val": "3",
+                  "offset": 60
+                }
+              ],
+              "location": "MimicStepDef.i_teach_the_mock_that_has_response(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5768952,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "\"add?value1\u003d2\u0026value2\u003d2\" does not return an empty response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add?value1\u003d2\u0026value2\u003d2",
+                  "offset": 1
+                }
+              ],
+              "location": "MimicStepDef.does_not_return_empty(String)"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 89,
+            "line": 86,
             "name": "@MachineLearning119"
-          },
-          {
-            "line": 1,
-            "name": "@MachineLearningFeature"
           }
         ]
       }
@@ -688,7 +512,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2908596304,
+              "duration": 2418156644,
               "status": "passed"
             },
             "line": 8,
@@ -700,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 5998058140,
+              "duration": 8381194810,
               "status": "passed"
             },
             "line": 9,
@@ -718,8 +542,8 @@
           },
           {
             "result": {
-              "duration": 15144977220,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/form/textarea\"}\n  (Session info: chrome\u003d66.0.3359.139)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-1A0S11AO\u0027, ip: \u0027192.168.1.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\LARSS_~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}\nSession ID: d7904ae9a207c22db22b5f3e25e50bbe\n*** Element info: {Using\u003dxpath, value\u003d/html/body/form/textarea}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)\r\n\tat se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)\r\n\tat ✽.And I input \"4\" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)\r\n",
+              "duration": 15148625391,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/form/textarea\"}\n  (Session info: chrome\u003d66.0.3359.139)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-1A0S11AO\u0027, ip: \u0027192.168.1.95\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\LARSS_~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}\nSession ID: a88c4a6636b31ea1b9451ffee8695882\n*** Element info: {Using\u003dxpath, value\u003d/html/body/form/textarea}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat se.iths.helpers.MimicGuiSelenium.sendText(MimicGuiSelenium.java:35)\r\n\tat se.iths.stepDefs.SeleniumStepDef.i_input_in_the_response_form_and_press_learn(SeleniumStepDef.java:71)\r\n\tat ✽.And I input \"4\" in the response form and press the Learn button(se/iths/testGUI/GUILearnNextResponse.feature:10)\r\n",
               "status": "failed"
             },
             "line": 10,
@@ -807,7 +631,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2789007312,
+              "duration": 2605063611,
               "status": "passed"
             },
             "line": 18,
@@ -819,7 +643,7 @@
           },
           {
             "result": {
-              "duration": 4381787793,
+              "duration": 6092898666,
               "status": "passed"
             },
             "line": 19,
@@ -840,7 +664,7 @@
           },
           {
             "result": {
-              "duration": 2418681915,
+              "duration": 2525924580,
               "status": "passed"
             },
             "line": 20,
@@ -861,7 +685,7 @@
           },
           {
             "result": {
-              "duration": 356838657,
+              "duration": 653349956,
               "status": "passed"
             },
             "line": 21,
@@ -873,7 +697,7 @@
           },
           {
             "result": {
-              "duration": 797648838,
+              "duration": 918852628,
               "status": "passed"
             },
             "line": 22,
@@ -885,8 +709,9 @@
           },
           {
             "result": {
-              "duration": 8035823,
-              "status": "passed"
+              "duration": 1006945476,
+              "error_message": "java.lang.NullPointerException\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"TEXT\" has the mime type \"text/plain;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
+              "status": "failed"
             },
             "line": 23,
             "name": "the request \"TEXT\" has the mime type \"text/plain;\"",
@@ -931,7 +756,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2774660031,
+              "duration": 3495657077,
               "status": "passed"
             },
             "line": 18,
@@ -943,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 4301416425,
+              "duration": 5923161491,
               "status": "passed"
             },
             "line": 19,
@@ -964,7 +789,7 @@
           },
           {
             "result": {
-              "duration": 2614839805,
+              "duration": 2632506141,
               "status": "passed"
             },
             "line": 20,
@@ -985,7 +810,7 @@
           },
           {
             "result": {
-              "duration": 334607389,
+              "duration": 665675765,
               "status": "passed"
             },
             "line": 21,
@@ -997,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 860412961,
+              "duration": 999084880,
               "status": "passed"
             },
             "line": 22,
@@ -1009,8 +834,8 @@
           },
           {
             "result": {
-              "duration": 6399277,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)\r\n\tat ✽.Then the request \"JSON\" has the mime type \"application/json;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
+              "duration": 1030505105,
+              "error_message": "java.lang.NullPointerException\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"JSON\" has the mime type \"application/json;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
             "line": 23,
@@ -1056,7 +881,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2786360850,
+              "duration": 3833882679,
               "status": "passed"
             },
             "line": 18,
@@ -1068,7 +893,7 @@
           },
           {
             "result": {
-              "duration": 4492216143,
+              "duration": 5703323734,
               "status": "passed"
             },
             "line": 19,
@@ -1089,7 +914,7 @@
           },
           {
             "result": {
-              "duration": 2636153901,
+              "duration": 2807777537,
               "status": "passed"
             },
             "line": 20,
@@ -1110,7 +935,7 @@
           },
           {
             "result": {
-              "duration": 518468605,
+              "duration": 353278306,
               "status": "passed"
             },
             "line": 21,
@@ -1122,7 +947,7 @@
           },
           {
             "result": {
-              "duration": 933699326,
+              "duration": 3098311008,
               "status": "passed"
             },
             "line": 22,
@@ -1134,8 +959,8 @@
           },
           {
             "result": {
-              "duration": 6347160,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)\r\n\tat ✽.Then the request \"XML\" has the mime type \"application/xml;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
+              "duration": 1018182989,
+              "error_message": "java.lang.NullPointerException\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"XML\" has the mime type \"application/xml;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
             "line": 23,
@@ -1181,7 +1006,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2974062289,
+              "duration": 3388113202,
               "status": "passed"
             },
             "line": 18,
@@ -1193,7 +1018,7 @@
           },
           {
             "result": {
-              "duration": 4000592161,
+              "duration": 6717069005,
               "status": "passed"
             },
             "line": 19,
@@ -1214,7 +1039,7 @@
           },
           {
             "result": {
-              "duration": 2539442507,
+              "duration": 2631615643,
               "status": "passed"
             },
             "line": 20,
@@ -1235,7 +1060,7 @@
           },
           {
             "result": {
-              "duration": 673810077,
+              "duration": 860762595,
               "status": "passed"
             },
             "line": 21,
@@ -1247,7 +1072,7 @@
           },
           {
             "result": {
-              "duration": 924622401,
+              "duration": 968970035,
               "status": "passed"
             },
             "line": 22,
@@ -1259,8 +1084,8 @@
           },
           {
             "result": {
-              "duration": 8803211,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:102)\r\n\tat ✽.Then the request \"HTML\" has the mime type \"text/html;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
+              "duration": 1045930423,
+              "error_message": "java.lang.NullPointerException\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"HTML\" has the mime type \"text/html;\"(se/iths/testGUI/ResponseForm.feature:23)\r\n",
               "status": "failed"
             },
             "line": 23,
@@ -1306,7 +1131,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2765763255,
+              "duration": 4182481970,
               "status": "passed"
             },
             "line": 35,
@@ -1318,7 +1143,7 @@
           },
           {
             "result": {
-              "duration": 4401688171,
+              "duration": 6037274123,
               "status": "passed"
             },
             "line": 36,
@@ -1339,7 +1164,7 @@
           },
           {
             "result": {
-              "duration": 548126301,
+              "duration": 421981273,
               "status": "passed"
             },
             "line": 37,
@@ -1360,7 +1185,7 @@
           },
           {
             "result": {
-              "duration": 2367558697,
+              "duration": 2379138047,
               "status": "passed"
             },
             "line": 38,
@@ -1381,7 +1206,7 @@
           },
           {
             "result": {
-              "duration": 295045464,
+              "duration": 373502875,
               "status": "passed"
             },
             "line": 39,
@@ -1393,7 +1218,7 @@
           },
           {
             "result": {
-              "duration": 800426618,
+              "duration": 795636805,
               "status": "passed"
             },
             "line": 40,
@@ -1405,8 +1230,9 @@
           },
           {
             "result": {
-              "duration": 5109901,
-              "status": "passed"
+              "duration": 1066635533,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"TEXT\" has the mime type \"text/plain;\"(se/iths/testGUI/ResponseForm.feature:41)\r\n",
+              "status": "failed"
             },
             "line": 41,
             "name": "the request \"TEXT\" has the mime type \"text/plain;\"",
@@ -1451,7 +1277,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2764438998,
+              "duration": 2450543286,
               "status": "passed"
             },
             "line": 35,
@@ -1463,7 +1289,7 @@
           },
           {
             "result": {
-              "duration": 6336415470,
+              "duration": 6443437356,
               "status": "passed"
             },
             "line": 36,
@@ -1484,7 +1310,7 @@
           },
           {
             "result": {
-              "duration": 1387846874,
+              "duration": 496935373,
               "status": "passed"
             },
             "line": 37,
@@ -1505,7 +1331,7 @@
           },
           {
             "result": {
-              "duration": 2685463293,
+              "duration": 2643069010,
               "status": "passed"
             },
             "line": 38,
@@ -1526,7 +1352,7 @@
           },
           {
             "result": {
-              "duration": 435190604,
+              "duration": 996879973,
               "status": "passed"
             },
             "line": 39,
@@ -1538,7 +1364,7 @@
           },
           {
             "result": {
-              "duration": 837026097,
+              "duration": 1403067417,
               "status": "passed"
             },
             "line": 40,
@@ -1550,8 +1376,9 @@
           },
           {
             "result": {
-              "duration": 12543715,
-              "status": "passed"
+              "duration": 6226101,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"JSON\" has the mime type \"application/json;\"(se/iths/testGUI/ResponseForm.feature:41)\r\n",
+              "status": "failed"
             },
             "line": 41,
             "name": "the request \"JSON\" has the mime type \"application/json;\"",
@@ -1596,7 +1423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2705316070,
+              "duration": 3053537822,
               "status": "passed"
             },
             "line": 35,
@@ -1608,7 +1435,7 @@
           },
           {
             "result": {
-              "duration": 4665811597,
+              "duration": 5621834935,
               "status": "passed"
             },
             "line": 36,
@@ -1629,7 +1456,7 @@
           },
           {
             "result": {
-              "duration": 615895681,
+              "duration": 828559798,
               "status": "passed"
             },
             "line": 37,
@@ -1650,7 +1477,7 @@
           },
           {
             "result": {
-              "duration": 2538516307,
+              "duration": 2823931669,
               "status": "passed"
             },
             "line": 38,
@@ -1671,7 +1498,7 @@
           },
           {
             "result": {
-              "duration": 427697696,
+              "duration": 423726567,
               "status": "passed"
             },
             "line": 39,
@@ -1683,7 +1510,7 @@
           },
           {
             "result": {
-              "duration": 1070618564,
+              "duration": 1660853532,
               "status": "passed"
             },
             "line": 40,
@@ -1695,8 +1522,9 @@
           },
           {
             "result": {
-              "duration": 6734547,
-              "status": "passed"
+              "duration": 1006384503,
+              "error_message": "java.lang.NullPointerException\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"XML\" has the mime type \"application/xml;\"(se/iths/testGUI/ResponseForm.feature:41)\r\n",
+              "status": "failed"
             },
             "line": 41,
             "name": "the request \"XML\" has the mime type \"application/xml;\"",
@@ -1741,7 +1569,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2727326970,
+              "duration": 4426730870,
               "status": "passed"
             },
             "line": 35,
@@ -1753,7 +1581,7 @@
           },
           {
             "result": {
-              "duration": 4379452799,
+              "duration": 5140292871,
               "status": "passed"
             },
             "line": 36,
@@ -1774,7 +1602,7 @@
           },
           {
             "result": {
-              "duration": 465211886,
+              "duration": 783300326,
               "status": "passed"
             },
             "line": 37,
@@ -1795,7 +1623,7 @@
           },
           {
             "result": {
-              "duration": 2822126460,
+              "duration": 3139369954,
               "status": "passed"
             },
             "line": 38,
@@ -1816,7 +1644,7 @@
           },
           {
             "result": {
-              "duration": 462454214,
+              "duration": 326751717,
               "status": "passed"
             },
             "line": 39,
@@ -1828,7 +1656,7 @@
           },
           {
             "result": {
-              "duration": 858259761,
+              "duration": 888328645,
               "status": "passed"
             },
             "line": 40,
@@ -1840,8 +1668,9 @@
           },
           {
             "result": {
-              "duration": 5024955,
-              "status": "passed"
+              "duration": 5856770,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat se.iths.stepDefs.MimicStepDef.the_request_has_the_mime_type(MimicStepDef.java:113)\r\n\tat ✽.Then the request \"HTML\" has the mime type \"text/html;\"(se/iths/testGUI/ResponseForm.feature:41)\r\n",
+              "status": "failed"
             },
             "line": 41,
             "name": "the request \"HTML\" has the mime type \"text/html;\"",
@@ -1908,7 +1737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2836485642,
+              "duration": 2899194366,
               "status": "passed"
             },
             "line": 40,
@@ -1920,7 +1749,7 @@
           },
           {
             "result": {
-              "duration": 4907957361,
+              "duration": 7090441794,
               "status": "passed"
             },
             "line": 41,
@@ -1932,7 +1761,7 @@
           },
           {
             "result": {
-              "duration": 6870413626,
+              "duration": 8139156153,
               "status": "passed"
             },
             "line": 42,
@@ -1967,7 +1796,7 @@
           },
           {
             "result": {
-              "duration": 196812836,
+              "duration": 195908797,
               "status": "passed"
             },
             "line": 46,
@@ -1979,7 +1808,7 @@
           },
           {
             "result": {
-              "duration": 761582017,
+              "duration": 792615267,
               "status": "passed"
             },
             "line": 47,
@@ -2014,7 +1843,7 @@
           },
           {
             "result": {
-              "duration": 1137546689,
+              "duration": 912188254,
               "status": "passed"
             },
             "line": 51,
@@ -2048,7 +1877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2716460430,
+              "duration": 2907006539,
               "status": "passed"
             },
             "line": 57,
@@ -2060,7 +1889,7 @@
           },
           {
             "result": {
-              "duration": 8864352082,
+              "duration": 6257098748,
               "status": "passed"
             },
             "line": 58,
@@ -2072,7 +1901,7 @@
           },
           {
             "result": {
-              "duration": 9787376510,
+              "duration": 8400622446,
               "status": "passed"
             },
             "line": 59,
@@ -2116,7 +1945,7 @@
           },
           {
             "result": {
-              "duration": 208192338,
+              "duration": 206289462,
               "status": "passed"
             },
             "line": 64,
@@ -2128,7 +1957,7 @@
           },
           {
             "result": {
-              "duration": 167548273,
+              "duration": 214495589,
               "status": "passed"
             },
             "line": 65,
@@ -2146,7 +1975,7 @@
           },
           {
             "result": {
-              "duration": 59922326,
+              "duration": 61893322,
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[thre]e\u003e but was:\u003c[on]e\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat se.iths.stepDefs.SeleniumStepDef.is_displayed(SeleniumStepDef.java:151)\r\n\tat ✽.Then \"three\" is displayed(se/iths/testGUI/ViewRequests.feature:66)\r\n",
               "status": "failed"
             },
